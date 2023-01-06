@@ -4,5 +4,7 @@ class PortfolioColor {
   static const Color greyColor = Color(0xFF5D5D5D);
   static const Color buttonColor = Color(0xFFFEF200);
   static const Color ligthGreyColor = Color(0xFFECECEC);
+  static const Color ligthBlueColor = Color(0xFFDFF1F9);
+  static const Color lightgreyColor = Color(0xFFECECEC);
   static const Color redAccentColor = Colors.redAccent;
 }

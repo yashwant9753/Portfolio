@@ -3,6 +3,7 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'dart:html' as html;
 import 'package:auto_size_text/auto_size_text.dart';
+import 'package:portfolio/projects/ProjcetsWidgets/ProjectResponsive.dart';
 
 class DesktopProjectBanner extends StatefulWidget {
   final String? projectTitle;
@@ -36,7 +37,14 @@ class _DesktopProjectBannerState extends State<DesktopProjectBanner> {
       height: (isHover) ? 500 : 428,
       child: InkWell(
         onTap: () {
-          html.window.open(widget.openLink!, "_blank");
+          // html.window.open(widget.openLink!, "_blank");
+          // Navigator.of(context).push(
+          //   MaterialPageRoute(
+          //     builder: (context) => const SenpaiResponsiveLayout(),
+          //   ),
+          // );
+
+          Navigator.pushNamed(context, widget.openLink!);
         },
         onHover: (val) {
           setState(() {
@@ -223,7 +231,8 @@ class MobileProjectBanner extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        html.window.open(openLink!, "_blank");
+        Navigator.pushNamed(context, '/senpailaptops');
+        // html.window.open(openLink!, "_blank");
       },
       child: Container(
         color: Colors.black,

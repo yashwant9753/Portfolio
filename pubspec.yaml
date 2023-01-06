@@ -43,6 +43,8 @@ dependencies:
   hovering: ^1.0.4
   animated_text_kit: ^4.2.2
   http: ^0.13.5
+  flutter_svg: ^1.1.6
+  flutter_svg_provider: ^1.0.3
   
 
 
@@ -106,6 +108,12 @@ flutter:
     - family: Dosis
       fonts:
         - asset: fonts/Dosis/static/Dosis-Regular.ttf
+    - family: Lato-Thin
+      fonts:
+        - asset: fonts/Lato-Thin.ttf
+    - family: Raleway-VariableFont_wght
+      fonts:
+        - asset: fonts/Raleway-VariableFont_wght.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

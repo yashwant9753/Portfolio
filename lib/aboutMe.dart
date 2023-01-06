@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 import 'portfolioColor.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 

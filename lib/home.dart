@@ -16,7 +16,9 @@ class DesktopHomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Material(
       child: VStack([
-        DesktopHeaderScreen(),
+        DesktopHeaderScreen(
+          isHome: true,
+        ),
         DesktopHeroContent(),
         DesktopAboutMe(),
         SizedBox(
@@ -34,8 +36,7 @@ class DesktopHomeScreen extends StatelessWidget {
           projectSkill: "Ux Ui Design",
           projectInfo: "Laptop for every ONE",
           projectImage: "assets/Senpai-Laptop-Pics.png",
-          openLink:
-              "https://www.figma.com/file/kFKgPDe30jfdQxAil8YMsT/Senpai-Laptops?node-id=23%3A40",
+          openLink: "/senpailaptops",
         ),
         SizedBox(
           height: 28,
@@ -72,7 +73,9 @@ class TabletHomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Material(
       child: VStack([
-        TabletHeader(),
+        TabletHeader(
+          isHome: true,
+        ),
         TabletHeroContent(),
         TabletAboutMe(),
         SizedBox(
@@ -128,8 +131,11 @@ class MobileHomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Material(
-      child: VStack([
+    return Scaffold(
+      endDrawer: NavigationDrawerWidget(
+        isHome: false,
+      ),
+      body: VStack([
         MobileHeader(),
         MobileHeroContent(),
         MobileAboutMe(),
