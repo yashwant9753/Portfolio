@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/portfolioColor.dart';
-import 'package:portfolio/projects/ProjcetsWidgets/design.dart';
+import 'package:Yashwant/portfolioColor.dart';
+import 'package:Yashwant/projects/ProjcetsWidgets/design.dart';
 
 class ProjectStyleGuide extends StatelessWidget {
   final double? paddingSize;
@@ -44,7 +44,7 @@ class ProjectStyleGuide extends StatelessWidget {
             height: spaceBetween,
           ),
           Container(
-            height: 860,
+            height: 850,
             padding: EdgeInsets.all(20.0),
             decoration: BoxDecoration(
               color: PortfolioColor.ligthGreyColor,
@@ -63,7 +63,7 @@ class ProjectStyleGuide extends StatelessWidget {
                           fontSize: subTitleSize, fontFamily: "CrimsonPro"),
                     ),
                     Container(
-                      padding: EdgeInsets.fromLTRB(100, 20, 20, 40),
+                      padding: EdgeInsets.fromLTRB(40, 20, 20, 40),
                       decoration: BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.all(Radius.circular(10)),
@@ -229,8 +229,8 @@ class ProjectStyleGuide extends StatelessWidget {
                     ),
                     Expanded(
                       child: Container(
-                        padding: EdgeInsets.only(
-                            left: 200, right: 200, top: 50, bottom: 50),
+                        // padding: EdgeInsets.only(
+                        //     left: 200, right: 200, top: 50, bottom: 50),
                         margin: EdgeInsets.only(
                           left: 20,
                         ),
@@ -238,41 +238,51 @@ class ProjectStyleGuide extends StatelessWidget {
                           color: Colors.white,
                           borderRadius: BorderRadius.all(Radius.circular(10)),
                         ),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          crossAxisAlignment: CrossAxisAlignment.center,
+                        child: Row(
                           children: [
-                            Text(
-                              "Crimson Pro-Italic",
-                              style: TextStyle(
-                                fontFamily: "CrimsonPro-Italic",
-                                fontSize: 34,
-                                color: Color(0xFF47B5FF),
+                            Expanded(flex: 1, child: Container()),
+                            Expanded(
+                              flex: 4,
+                              child: Column(
+                                // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                children: [
+                                  Text(
+                                    "Crimson Pro-Italic",
+                                    style: TextStyle(
+                                      fontFamily: "CrimsonPro-Italic",
+                                      fontSize: 34,
+                                      color: Color(0xFF47B5FF),
+                                    ),
+                                  ),
+                                  Text(
+                                    "Dosis",
+                                    style: TextStyle(
+                                        fontFamily: "Dosis",
+                                        fontSize: 34,
+                                        color: Colors.black),
+                                  ),
+                                  Text(
+                                    "Crimson Pro",
+                                    style: TextStyle(
+                                      fontFamily: "CrimsonPro",
+                                      fontSize: 34,
+                                      color: Colors.black,
+                                    ),
+                                  ),
+                                  Text(
+                                    "Roboto",
+                                    style: TextStyle(
+                                      fontFamily: "CrimsonPro-Italic",
+                                      fontSize: 34,
+                                      color: Colors.black,
+                                    ),
+                                  ),
+                                ],
                               ),
                             ),
-                            Text(
-                              "Dosis",
-                              style: TextStyle(
-                                  fontFamily: "Dosis",
-                                  fontSize: 34,
-                                  color: Colors.black),
-                            ),
-                            Text(
-                              "Crimson Pro",
-                              style: TextStyle(
-                                fontFamily: "CrimsonPro",
-                                fontSize: 34,
-                                color: Colors.black,
-                              ),
-                            ),
-                            Text(
-                              "Roboto",
-                              style: TextStyle(
-                                fontFamily: "CrimsonPro-Italic",
-                                fontSize: 34,
-                                color: Colors.black,
-                              ),
-                            ),
+                            Expanded(flex: 1, child: Container())
                           ],
                         ),
                       ),

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/portfolioColor.dart';
-import 'package:portfolio/projects/ProjcetsWidgets/design.dart';
+import 'package:Yashwant/portfolioColor.dart';
+import 'package:Yashwant/projects/ProjcetsWidgets/design.dart';
 
 class ProjectPrototype extends StatelessWidget {
   final double? paddingSize;

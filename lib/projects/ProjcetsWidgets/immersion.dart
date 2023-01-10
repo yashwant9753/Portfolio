@@ -2,14 +2,14 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
-import 'package:portfolio/portfolioColor.dart';
+import 'package:Yashwant/portfolioColor.dart';
 
 class ProjectImmersion extends StatelessWidget {
   final String? title;
   final double? titleSize;
   final double? leftSide;
   final double? paddingSize;
-  final List? info;
+
   final double? immersionTitleSize;
   final List? immersion;
   final double? infoSize;
@@ -23,7 +23,6 @@ class ProjectImmersion extends StatelessWidget {
       this.leftSide,
       this.immersion,
       this.paddingSize,
-      this.info,
       this.immersionTitleSize,
       this.infoSize,
       this.spaceBetween})

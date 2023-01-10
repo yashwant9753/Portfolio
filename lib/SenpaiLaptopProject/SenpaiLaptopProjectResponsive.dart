@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/projects/ProjcetsWidgets/ProjectHome.dart';
+import 'package:Yashwant/SenpaiLaptopProject/SenpaiLaptopProjectHome.dart';
 
 class SenpaiResponsiveLayout extends StatefulWidget {
   const SenpaiResponsiveLayout({super.key});

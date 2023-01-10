@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/header.dart';
-import 'package:portfolio/resume/ResumePage.dart';
-import 'package:portfolio/resume/mobileResumePage.dart';
+import 'package:Yashwant/header.dart';
+import 'package:Yashwant/resume/ResumePage.dart';
+import 'package:Yashwant/resume/mobileResumePage.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 class ResumeDesktopView extends StatelessWidget {
@@ -39,7 +39,7 @@ class ResumeTabletView extends StatelessWidget {
     return Material(
       child: VStack([
         TabletHeader(
-          isHome: false,
+          isHome: true,
         ),
         ResumePage(
             titleSize: width < 1100 ? 30 : 30,

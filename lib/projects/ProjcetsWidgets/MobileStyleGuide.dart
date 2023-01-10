@@ -1,9 +1,9 @@
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:flutter/material.dart';
-import 'package:portfolio/portfolioColor.dart';
-import 'package:portfolio/projects/ProjcetsWidgets/design.dart';
-import 'package:portfolio/projects/ProjcetsWidgets/styleGuide.dart';
+import 'package:Yashwant/portfolioColor.dart';
+import 'package:Yashwant/projects/ProjcetsWidgets/design.dart';
+import 'package:Yashwant/projects/ProjcetsWidgets/styleGuide.dart';
 
 class MobileProjectStyleGuide extends StatelessWidget {
   final double? paddingSize;

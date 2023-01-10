@@ -1,19 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 
-class SenpaiDesktopHeader extends StatelessWidget {
+class ProjectDesktopHeader extends StatelessWidget {
   final String? projectTitle;
   final String? projectSkill;
   final String? projectInfo;
   final String? projectImage;
-  final String? openLink;
 
-  SenpaiDesktopHeader(
+  ProjectDesktopHeader(
       {Key? key,
       this.projectTitle,
       this.projectSkill,
       this.projectInfo,
-      this.openLink,
       this.projectImage})
       : super(key: key);
 

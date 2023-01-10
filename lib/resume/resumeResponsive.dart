@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/resume/resumeHome.dart';
+import 'package:Yashwant/resume/resumeHome.dart';
 
 class ResumeResponsiveLayout extends StatefulWidget {
   const ResumeResponsiveLayout({super.key});

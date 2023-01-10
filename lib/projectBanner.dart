@@ -3,7 +3,7 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'dart:html' as html;
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:portfolio/projects/ProjcetsWidgets/ProjectResponsive.dart';
+import 'package:Yashwant/SenpaiLaptopProject/SenpaiLaptopProjectResponsive.dart';
 
 class DesktopProjectBanner extends StatefulWidget {
   final String? projectTitle;
@@ -144,7 +144,7 @@ class _TabletProjectBannerState extends State<TabletProjectBanner> {
         height: (isHover) ? 450 : 400,
         child: InkWell(
           onTap: () {
-            html.window.open(widget.openLink!, "_blank");
+            Navigator.pushNamed(context, widget.openLink!);
           },
           onHover: (val) {
             setState(() {

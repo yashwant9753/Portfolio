@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'portfolioColor.dart';
 import 'package:icons_plus/icons_plus.dart';
 
-import 'package:portfolio/effects.dart';
+import 'package:Yashwant/effects.dart';
 
 class DesktopTechnicalSkills extends StatefulWidget {
   const DesktopTechnicalSkills({super.key});

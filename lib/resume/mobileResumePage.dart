@@ -2,9 +2,9 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
-import 'package:portfolio/effects.dart';
+import 'package:Yashwant/effects.dart';
 import 'dart:html' as html;
-import 'package:portfolio/portfolioColor.dart';
+import 'package:Yashwant/portfolioColor.dart';
 
 class MobileResumePage extends StatelessWidget {
   final double? titleSize;

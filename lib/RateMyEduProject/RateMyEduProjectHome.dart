@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/header.dart';
-import 'package:portfolio/projects/ProjcetsWidgets/MobileStyleGuide.dart';
-import 'package:portfolio/projects/ProjcetsWidgets/design.dart';
-import 'package:portfolio/projects/ProjcetsWidgets/designProcess.dart';
-import 'package:portfolio/projects/ProjcetsWidgets/header.dart';
-import 'package:portfolio/projects/ProjcetsWidgets/immersion.dart';
-import 'package:portfolio/projects/ProjcetsWidgets/overview.dart';
-import 'package:portfolio/projects/ProjcetsWidgets/prototype.dart';
-import 'package:portfolio/projects/ProjcetsWidgets/research.dart';
-import 'package:portfolio/projects/ProjcetsWidgets/styleGuide.dart';
-import 'package:portfolio/projects/ProjcetsWidgets/userFlow.dart';
-import 'package:portfolio/projects/ProjcetsWidgets/wireFrame.dart';
+import 'package:Yashwant/header.dart';
+import 'package:Yashwant/projects/ProjcetsWidgets/MobileStyleGuide.dart';
+import 'package:Yashwant/projects/ProjcetsWidgets/design.dart';
+import 'package:Yashwant/projects/ProjcetsWidgets/designProcess.dart';
+import 'package:Yashwant/projects/ProjcetsWidgets/header.dart';
+import 'package:Yashwant/projects/ProjcetsWidgets/immersion.dart';
+import 'package:Yashwant/projects/ProjcetsWidgets/overview.dart';
+import 'package:Yashwant/projects/ProjcetsWidgets/prototype.dart';
+import 'package:Yashwant/projects/ProjcetsWidgets/research.dart';
+import 'package:Yashwant/projects/ProjcetsWidgets/styleGuide.dart';
+import 'package:Yashwant/projects/ProjcetsWidgets/userFlow.dart';
+import 'package:Yashwant/projects/ProjcetsWidgets/wireFrame.dart';
 import 'package:velocity_x/velocity_x.dart';
 
-class SenpaiDesktopProjectScreen extends StatelessWidget {
-  const SenpaiDesktopProjectScreen({super.key});
+class RateMyEduDesktopProjectScreen extends StatelessWidget {
+  const RateMyEduDesktopProjectScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -23,13 +23,11 @@ class SenpaiDesktopProjectScreen extends StatelessWidget {
         DesktopHeaderScreen(
           isHome: false,
         ),
-        SenpaiDesktopHeader(
-          projectTitle: "Senpai Laptops",
+        ProjectDesktopHeader(
+          projectTitle: "RateMyEducation",
           projectSkill: "Ux Ui Design",
-          projectInfo: "Laptop for every ONE",
-          projectImage: "assets/Senpai-Laptop-Pics.png",
-          openLink:
-              "https://www.figma.com/file/kFKgPDe30jfdQxAil8YMsT/Senpai-Laptops?node-id=23%3A40",
+          projectInfo: "Choose Your Education Carefully",
+          projectImage: "assets/RateMyEdu.png",
         ),
         SizedBox(
           height: 28,
@@ -41,9 +39,9 @@ class SenpaiDesktopProjectScreen extends StatelessWidget {
           leftSide: 80,
           spaceBetween: 40,
           info:
-              """I'm a simple-minded Software Engineeri! who likely loves programming and Gaming, I always try to work in a minimalistic way so things are turn simple and easy to understand.\n
-Application Development, Data Science, Cloud computing, and illustration   my kin interest things w hich I love to learn.
-Currently, I'm working on sharpening my skill in Flutter, ReactJS, UX/UI Design, and DSA.""",
+              """A RateMyEducation is a website on which Ratings can be posted about Online Courses, Colleges, and Schools. These sites may use techniques to gather reviews from  Students.
+This Website provides better clarity about the Courses, Colleges, and School So that the Student can choose their education carefully.
+""",
         ),
         SizedBox(
           height: 28,
@@ -56,8 +54,8 @@ Currently, I'm working on sharpening my skill in Flutter, ReactJS, UX/UI Design,
           designTitleSize: 34,
           spaceBetween: 40,
           infoSize: 28,
-          info:
-              """This the personal project which has to be completed within 15 day with 9 unique screen design. I immediately created a considered timeline with goal of completing the design within 10 days, above are the steps that considered while designing this project.""",
+          info: """
+This Website is first think as a startup by my self so, I decided to design this website as carefully on Figma. It takes about 15 to 20 days to totally finish the Design.""",
           designProcess: [
             "IMMERSION",
             "RESEARCH",
@@ -75,14 +73,13 @@ Currently, I'm working on sharpening my skill in Flutter, ReactJS, UX/UI Design,
           titleSize: 62,
           leftSide: 80,
           paddingSize: 15,
-          info: ["dwad"],
           immersionTitleSize: 25,
           immersion: [
-            "The mobile app which help people to find their perfect Laptop.",
-            "Any one who looking for the perfect  Computer.",
-            "User can use the app whenevery they feel like buying perfect Computer.",
-            "As the app is eCommerce  shopping app which can used whenever and wherever user like.",
-            "The mobile app perfect solution for buying computer online."
+            "The Website that help the student to get there best Education System.",
+            "Any one who looking for the perfect Education System.",
+            "User can use the app whenevery they want to see the Review of Education System by Others.",
+            "This is Review Webiste which can used whenever and wherever user like.",
+            "The Website perfect solution for Reviewing and Choosing your Education System."
           ],
           infoSize: 25,
           spaceBetween: 40,
@@ -97,6 +94,7 @@ Currently, I'm working on sharpening my skill in Flutter, ReactJS, UX/UI Design,
           titleSize: 62,
           imageToggle: false,
           infoSize: 28,
+          projectImage: "ratemyeduhome.png",
           info:
               """After the immersion stage comes research. UX design begins with a study of the target audience and their needs. You’ll use this information to create products and services that are helpful to the people who belong to your audience and are easy to use. At this stage, our Design team studies the project requirements, analyzes users’ behaviors, and conducts a competitive analysis.
 
@@ -183,8 +181,8 @@ First, study all available project materials, whether they describe a basic busi
   }
 }
 
-class SenpaiTabletProjectScreen extends StatelessWidget {
-  const SenpaiTabletProjectScreen({super.key});
+class RateMyEduTabletProjectScreen extends StatelessWidget {
+  const RateMyEduTabletProjectScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -193,15 +191,13 @@ class SenpaiTabletProjectScreen extends StatelessWidget {
     return Material(
       child: VStack([
         TabletHeader(
-          isHome: false,
+          isHome: true,
         ),
         SenpaiTabletHeader(
-          projectTitle: "Senpai Laptops",
+          projectTitle: "RateMyEducation",
           projectSkill: "Ux Ui Design",
-          projectInfo: "Laptop for every ONE",
-          projectImage: "assets/Senpai-Laptop-Pics.png",
-          openLink:
-              "https://www.figma.com/file/kFKgPDe30jfdQxAil8YMsT/Senpai-Laptops?node-id=23%3A40",
+          projectInfo: "Choose Your Education Carefully",
+          projectImage: "assets/RateMyEdu.png",
         ),
         SizedBox(
           height: 15,
@@ -213,9 +209,9 @@ class SenpaiTabletProjectScreen extends StatelessWidget {
           infoSize: 28,
           spaceBetween: 35,
           info:
-              """I'm a simple-minded Software Engineeri! who likely loves programming and Gaming, I always try to work in a minimalistic way so things are turn simple and easy to understand.\n
-Application Development, Data Science, Cloud computing, and illustration   my kin interest things w hich I love to learn.
-Currently, I'm working on sharpening my skill in Flutter, ReactJS, UX/UI Design, and DSA.""",
+              """A RateMyEducation is a website on which Ratings can be posted about Online Courses, Colleges, and Schools. These sites may use techniques to gather reviews from  Students.
+This Website provides better clarity about the Courses, Colleges, and School So that the Student can choose their education carefully.
+""",
         ),
         SizedBox(
           height: 15,
@@ -228,10 +224,8 @@ Currently, I'm working on sharpening my skill in Flutter, ReactJS, UX/UI Design,
           designTitleSize: 27,
           spaceBetween: 35,
           infoSize: 28,
-          info:
-              """I'm a simple-minded Software Engineeri! who likely loves programming and Gaming, I always try to work in a minimalistic way so things are turn simple and easy to understand.\n
-Application Development, Data Science, Cloud computing, and illustration   my kin interest things w hich I love to learn.
-Currently, I'm working on sharpening my skill in Flutter, ReactJS, UX/UI Design, and DSA.""",
+          info: """
+This Website is first think as a startup by my self so, I decided to design this website as carefully on Figma. It takes about 15 to 20 days to totally finish the Design.""",
           designProcess: [
             "IMMERSION",
             "RESEARCH",
@@ -249,14 +243,13 @@ Currently, I'm working on sharpening my skill in Flutter, ReactJS, UX/UI Design,
           titleSize: 50,
           leftSide: 12,
           paddingSize: 10,
-          info: ["dwad"],
           immersionTitleSize: 25,
           immersion: [
-            "The mobile app which help people to find their perfect Laptop.",
-            "Any one who looking for the perfect  Computer.",
-            "User can use the app whenevery they feel like buying perfect Computer.",
-            "As the app is eCommerce  shopping app which can used whenever and wherever user like.",
-            "The mobile app perfect solution for buying computer online."
+            "The Website that help the student to get there best Education System.",
+            "Any one who looking for the perfect Education System.",
+            "User can use the app whenevery they want to see the Review of Education System by Others.",
+            "This is Review Webiste which can used whenever and wherever user like.",
+            "The Website perfect solution for Reviewing and Choosing your Education System."
           ],
           infoSize: 2,
           spaceBetween: 40,
@@ -271,6 +264,7 @@ Currently, I'm working on sharpening my skill in Flutter, ReactJS, UX/UI Design,
           titleSize: 50,
           imageToggle: false,
           infoSize: 23,
+          projectImage: "assets/ratemyeduhome.png",
           info:
               """After the immersion stage comes research. UX design begins with a study of the target audience and their needs. You’ll use this information to create products and services that are helpful to the people who belong to your audience and are easy to use. At this stage, our Design team studies the project requirements, analyzes users’ behaviors, and conducts a competitive analysis.
 
@@ -355,8 +349,8 @@ First, study all available project materials, whether they describe a basic busi
   }
 }
 
-class SenpaiMobileProjectScreen extends StatelessWidget {
-  const SenpaiMobileProjectScreen({super.key});
+class RateMyEduMobileProjectScreen extends StatelessWidget {
+  const RateMyEduMobileProjectScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -417,14 +411,13 @@ class SenpaiMobileProjectScreen extends StatelessWidget {
           titleSize: 34,
           leftSide: 16,
           paddingSize: 5,
-          info: ["dwad"],
           immersionTitleSize: 25,
           immersion: [
-            "The mobile app which help people to find their perfect Laptop.",
-            "Any one who looking for the perfect  Computer.",
-            "User can use the app whenevery they feel like buying perfect Computer.",
-            "As the app is eCommerce  shopping app which can used whenever and wherever user like.",
-            "The mobile app perfect solution for buying computer online."
+            "The Website that help the student to get there best Education System.",
+            "Any one who looking for the perfect Education System.",
+            "User can use the app whenevery they want to see the Review of Education System by Others.",
+            "This is Review Webiste which can used whenever and wherever user like.",
+            "The Website perfect solution for Reviewing and Choosing your Education System."
           ],
           infoSize: 17,
           spaceBetween: 40,
@@ -436,6 +429,7 @@ class SenpaiMobileProjectScreen extends StatelessWidget {
           titleSize: 34,
           imageToggle: true,
           infoSize: 17,
+          projectImage: "assets/ratemyeduhome.png",
           info:
               """After the immersion stage comes research. UX design begins with a study of the target audience and their needs. You’ll use this information to create products and services that are helpful to the people who belong to your audience and are easy to use. At this stage, our Design team studies the project requirements, analyzes users’ behaviors, and conducts a competitive analysis.
     

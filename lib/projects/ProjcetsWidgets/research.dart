@@ -10,13 +10,14 @@ class ProjectResearch extends StatelessWidget {
   // final double? screenSize;
   final bool? imageToggle;
   final double? infoSize;
+  final String? projectImage;
 
   ProjectResearch(
       {Key? key,
       this.title,
       this.imageToggle,
       this.infoSize,
-      // this.screenSize,
+      this.projectImage,
       this.spaceBetween,
       this.paddingSize,
       this.titleSize,
@@ -76,7 +77,7 @@ class ProjectResearch extends StatelessWidget {
                       child: Container(
                         decoration: BoxDecoration(
                             image: DecorationImage(
-                                image: AssetImage("assets/researchimage.png"),
+                                image: AssetImage(projectImage!),
                                 fit: BoxFit.fill)),
                       ),
                     )),

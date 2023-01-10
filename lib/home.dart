@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:portfolio/aboutMe.dart';
-import 'package:portfolio/colors.dart';
-import 'package:portfolio/header.dart';
-import 'package:portfolio/heroContent.dart';
-import 'package:portfolio/projectBanner.dart';
-import 'package:portfolio/techincalSkills.dart';
+import 'package:Yashwant/aboutMe.dart';
+import 'package:Yashwant/colors.dart';
+import 'package:Yashwant/header.dart';
+import 'package:Yashwant/heroContent.dart';
+import 'package:Yashwant/projectBanner.dart';
+import 'package:Yashwant/techincalSkills.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 class DesktopHomeScreen extends StatelessWidget {
@@ -46,8 +46,7 @@ class DesktopHomeScreen extends StatelessWidget {
           projectSkill: "Ux Ui Design",
           projectInfo: "Choose Your Education Carefully",
           projectImage: "assets/RateMyEdu.png",
-          openLink:
-              "https://www.figma.com/file/kINA6z7IzeajI65iLYMCNI/RateMyEducation?node-id=0%3A1",
+          openLink: "/ratemyEducation",
         ),
         SizedBox(
           height: 28,
@@ -74,7 +73,7 @@ class TabletHomeScreen extends StatelessWidget {
     return Material(
       child: VStack([
         TabletHeader(
-          isHome: true,
+          isHome: false,
         ),
         TabletHeroContent(),
         TabletAboutMe(),
@@ -94,8 +93,7 @@ class TabletHomeScreen extends StatelessWidget {
           projectSkill: "Ux Ui Design",
           projectInfo: "Laptop for every ONE",
           projectImage: "assets/Senpai-Laptop-Pics.png",
-          openLink:
-              "https://www.figma.com/file/kFKgPDe30jfdQxAil8YMsT/Senpai-Laptops?node-id=23%3A40",
+          openLink: "/senpailaptops",
         ),
         SizedBox(
           height: 28,
