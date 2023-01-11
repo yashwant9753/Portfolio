@@ -94,7 +94,7 @@ This Website is first think as a startup by my self so, I decided to design this
           titleSize: 62,
           imageToggle: false,
           infoSize: 28,
-          projectImage: "ratemyeduhome.png",
+          projectImage: "assets/ratehome.png",
           info:
               """After the immersion stage comes research. UX design begins with a study of the target audience and their needs. You’ll use this information to create products and services that are helpful to the people who belong to your audience and are easy to use. At this stage, our Design team studies the project requirements, analyzes users’ behaviors, and conducts a competitive analysis.
 
