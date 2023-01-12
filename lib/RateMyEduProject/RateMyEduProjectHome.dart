@@ -94,7 +94,7 @@ This Website is first think as a startup by my self so, I decided to design this
           titleSize: 62,
           imageToggle: false,
           infoSize: 28,
-          projectImage: "assets/ratehome.png",
+          projectImage: "assets/ratemyhome.png",
           info:
               """After the immersion stage comes research. UX design begins with a study of the target audience and their needs. You’ll use this information to create products and services that are helpful to the people who belong to your audience and are easy to use. At this stage, our Design team studies the project requirements, analyzes users’ behaviors, and conducts a competitive analysis.
 
@@ -138,8 +138,8 @@ First, study all available project materials, whether they describe a basic busi
             info:
                 """Next,  sketched low-fidelity wireframes with pencil and paper. After that general layouts of our screens, and turned to Figma for our mid-fidelity wireframes. As this was a person project, it takes time. Before wireframing, I decided to apply a 6-column grid with 16 margin on both side  to create an organized and consistent look throughout our screens.""",
             infoSize: 28,
-            leftImage: "assets/Explore.png",
-            rightImage: "assets/Account.png",
+            leftImage: "assets/ratemyhome.png",
+            rightImage: "assets/RateMyEduReviewPage.png",
             designInfo: [
               "375px × 812px", //minimumn
               "6",

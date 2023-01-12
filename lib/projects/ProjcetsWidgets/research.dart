@@ -76,6 +76,7 @@ class ProjectResearch extends StatelessWidget {
                           right: width < 1660 ? 100 : 210),
                       child: Container(
                         decoration: BoxDecoration(
+                            borderRadius: BorderRadius.all(Radius.circular(10)),
                             image: DecorationImage(
                                 image: AssetImage(projectImage!),
                                 fit: BoxFit.fill)),
