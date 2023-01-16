@@ -1,9 +1,8 @@
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:flutter/material.dart';
 import 'package:Yashwant/portfolioColor.dart';
 import 'package:Yashwant/projects/ProjcetsWidgets/design.dart';
 import 'package:Yashwant/projects/ProjcetsWidgets/styleGuide.dart';
+import 'package:icons_plus/icons_plus.dart';
 
 class MobileProjectStyleGuide extends StatelessWidget {
   final double? paddingSize;
@@ -209,6 +208,212 @@ class MobileProjectStyleGuide extends StatelessWidget {
                             Icons.visibility_off,
                             size: iconsSize,
                           ),
+                        ],
+                      ),
+                    ),
+                    Text(
+                      "TYPEFACE",
+                      style: TextStyle(
+                          fontSize: subTitleSize, fontFamily: "CrimsonPro"),
+                    ),
+                    Container(
+                      padding: EdgeInsets.only(
+                          left: 90, right: 90, top: 50, bottom: 50),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.all(Radius.circular(10)),
+                      ),
+                      child: Column(
+                        children: [
+                          Text(
+                            "Crimson Pro-Italic",
+                            style: TextStyle(
+                              fontFamily: "CrimsonPro-Italic",
+                              fontSize: 34,
+                              color: Color(0xFF47B5FF),
+                            ),
+                          ),
+                          Text(
+                            "Dosis",
+                            style: TextStyle(
+                                fontFamily: "Dosis",
+                                fontSize: 34,
+                                color: Colors.black),
+                          ),
+                          Text(
+                            "Crimson Pro",
+                            style: TextStyle(
+                              fontFamily: "CrimsonPro",
+                              fontSize: 34,
+                              color: Colors.black,
+                            ),
+                          ),
+                          Text(
+                            "Roboto",
+                            style: TextStyle(
+                              fontFamily: "CrimsonPro-Italic",
+                              fontSize: 34,
+                              color: Colors.black,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                )
+              ],
+            ),
+          )
+        ],
+      ),
+    );
+    ;
+  }
+}
+
+class RateMyEduMobileProjectStyleGuide extends StatelessWidget {
+  final double? paddingSize;
+  final String? title;
+  final double? titleSize;
+  final double? iconsSize;
+
+  final double? spaceBetween;
+
+  final String? info;
+  final double? infoSize;
+
+  final double? circleSize;
+
+  final double? subTitleSize;
+
+  RateMyEduMobileProjectStyleGuide({
+    Key? key,
+    this.iconsSize,
+    this.circleSize,
+    this.paddingSize,
+    this.infoSize,
+    this.info,
+    this.title,
+    this.titleSize,
+    this.subTitleSize,
+    this.spaceBetween,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: EdgeInsets.only(left: paddingSize!, right: paddingSize!),
+      child: Column(
+        children: [
+          CustomWidget(
+              title: title,
+              titleSize: titleSize,
+              info: info,
+              infoSize: infoSize),
+          SizedBox(
+            height: spaceBetween,
+          ),
+          Container(
+            padding: EdgeInsets.all(20.0),
+            decoration: BoxDecoration(
+              color: PortfolioColor.ligthGreyColor,
+              borderRadius: BorderRadius.all(Radius.circular(10)),
+            ),
+            child: Column(
+              children: [
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      "COLOR Palette",
+                      style: TextStyle(
+                          fontSize: subTitleSize, fontFamily: "CrimsonPro"),
+                    ),
+                    Container(
+                      padding: EdgeInsets.all(20),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.all(Radius.circular(10)),
+                      ),
+                      child: Column(
+                        children: [
+                          Row(
+                            children: [
+                              CustomCircle(
+                                circleSize: circleSize,
+                                color: "Yellow",
+                                colorCode: "#FFE609",
+                                circleColor: Color(0xFFFFE609),
+                              ),
+                              CustomCircle(
+                                circleSize: circleSize,
+                                color: "Light Blue",
+                                colorCode: "#DFF1F9",
+                                circleColor: Color(0xFFDFF1F9),
+                              ),
+                              CustomCircle(
+                                circleSize: circleSize,
+                                color: "Grey",
+                                colorCode: "#CECECE",
+                                circleColor: Color(0xFFCECECE),
+                              ),
+                            ],
+                          ),
+                          SizedBox(
+                            height: spaceBetween,
+                          ),
+                          Row(
+                            children: [
+                              CustomCircle(
+                                circleSize: circleSize,
+                                color: "Dark Blue",
+                                colorCode: "#1363DF",
+                                circleColor: Color(0xFF1363DF),
+                              ),
+                              CustomCircle(
+                                circleSize: circleSize,
+                                color: "Black",
+                                colorCode: "#000000",
+                                circleColor: Color(0xFF000000),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      "ICONS",
+                      style: TextStyle(
+                          fontSize: subTitleSize, fontFamily: "CrimsonPro"),
+                    ),
+                    Container(
+                      padding: EdgeInsets.all(20),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.all(Radius.circular(10)),
+                      ),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Icon(
+                            Icons.book,
+                            size: iconsSize,
+                          ),
+                          Icon(
+                            Icons.star,
+                            size: iconsSize,
+                          ),
+                          Logo(
+                            Logos.google,
+                            color: Colors.black,
+                          )
                         ],
                       ),
                     ),

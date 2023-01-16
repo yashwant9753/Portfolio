@@ -149,7 +149,7 @@ First, study all available project materials, whether they describe a basic busi
         SizedBox(
           height: 28,
         ),
-        ProjectStyleGuide(
+        SenpaiLaptopProjectStyleGuide(
           paddingSize: 80,
           title: "Style Guide",
           titleSize: 62,
@@ -323,7 +323,7 @@ First, study all available project materials, whether they describe a basic busi
         SizedBox(
           height: 15,
         ),
-        ProjectStyleGuide(
+        SenpaiLaptopProjectStyleGuide(
           paddingSize: 10,
           title: "Style Guide",
           titleSize: 50,

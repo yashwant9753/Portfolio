@@ -1,3 +1,4 @@
+import 'package:Yashwant/portfolioColor.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
@@ -11,10 +12,17 @@ class DesktopProjectBanner extends StatefulWidget {
   final String? projectInfo;
   final String? projectImage;
   final String? openLink;
-
+  final bool? isApp;
+  final String? gitHubLink;
+  final String? videoLink;
+  final String? appLink;
   DesktopProjectBanner(
       {Key? key,
       this.projectTitle,
+      this.appLink,
+      this.gitHubLink,
+      this.videoLink,
+      this.isApp,
       this.projectSkill,
       this.projectInfo,
       this.openLink,
@@ -87,9 +95,90 @@ class _DesktopProjectBannerState extends State<DesktopProjectBanner> {
                         SizedBox(
                           height: 50,
                         ),
-                        // ReadmeButton(
-                        //   title: "Read More >",
-                        // )
+                        widget.isApp!
+                            ? Row(
+                                children: [
+                                  InkWell(
+                                    onTap: () {
+                                      html.window
+                                          .open(widget.gitHubLink!, "_blank");
+                                    },
+                                    child: Container(
+                                      padding: EdgeInsets.all(10),
+                                      decoration: BoxDecoration(
+                                        color: PortfolioColor.buttonColor,
+                                        borderRadius: BorderRadius.all(
+                                            Radius.circular(10)),
+                                      ),
+                                      alignment: Alignment.center,
+                                      child: Text(
+                                        "GitHub",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.w800,
+                                          fontFamily: "Bebas-Neue",
+                                          fontSize: 20,
+                                          color: Colors.black,
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                  SizedBox(
+                                    width: 50,
+                                  ),
+                                  InkWell(
+                                    onTap: () {
+                                      html.window
+                                          .open(widget.appLink!, "_blank");
+                                    },
+                                    child: Container(
+                                      padding: EdgeInsets.all(10),
+                                      alignment: Alignment.center,
+                                      decoration: BoxDecoration(
+                                        color: PortfolioColor.buttonColor,
+                                        borderRadius: BorderRadius.all(
+                                            Radius.circular(10)),
+                                      ),
+                                      child: Text(
+                                        "APK Link",
+                                        style: TextStyle(
+                                          fontSize: 20,
+                                          fontWeight: FontWeight.w800,
+                                          fontFamily: "Bebas-Neue",
+                                          color: Colors.black,
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                  SizedBox(
+                                    width: 50,
+                                  ),
+                                  InkWell(
+                                    onTap: () {
+                                      html.window
+                                          .open(widget.videoLink!, "_blank");
+                                    },
+                                    child: Container(
+                                      padding: EdgeInsets.all(10),
+                                      decoration: BoxDecoration(
+                                        color: PortfolioColor.buttonColor,
+                                        borderRadius: BorderRadius.all(
+                                            Radius.circular(10)),
+                                      ),
+                                      alignment: Alignment.center,
+                                      child: Text(
+                                        "Video Link",
+                                        style: TextStyle(
+                                          fontSize: 20,
+                                          fontFamily: "Bebas-Neue",
+                                          fontWeight: FontWeight.w800,
+                                          color: Colors.black,
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              )
+                            : Text(""),
                       ],
                     ),
                   )),
@@ -231,7 +320,8 @@ class MobileProjectBanner extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        Navigator.pushNamed(context, '/senpailaptops');
+        Navigator.pushNamed(context, openLink!);
+
         // html.window.open(openLink!, "_blank");
       },
       child: Container(

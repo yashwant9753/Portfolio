@@ -37,6 +37,7 @@ class DesktopHomeScreen extends StatelessWidget {
           projectInfo: "Laptop for every ONE",
           projectImage: "assets/Senpai-Laptop-Pics.png",
           openLink: "/senpailaptops",
+          isApp: false,
         ),
         SizedBox(
           height: 28,
@@ -47,6 +48,7 @@ class DesktopHomeScreen extends StatelessWidget {
           projectInfo: "Choose Your Education Carefully",
           projectImage: "assets/RateMyEdu.png",
           openLink: "/ratemyEducation",
+          isApp: false,
         ),
         SizedBox(
           height: 28,
@@ -56,6 +58,12 @@ class DesktopHomeScreen extends StatelessWidget {
           projectSkill: "Flutter App",
           projectInfo: "Share the happiness",
           projectImage: "assets/MemeShare.png",
+          isApp: true,
+          gitHubLink: "https://github.com/yashwant9753/MemeShare",
+          videoLink:
+              "https://www.youtube.com/watch?v=Z3RTO-juN4I&ab_channel=YashwantSahu",
+          appLink:
+              "https://drive.google.com/file/d/1RD97YMViuwR9RCcm2_UNSRTvpxF5PTm4/view",
         ),
         SizedBox(
           height: 28,
@@ -103,8 +111,7 @@ class TabletHomeScreen extends StatelessWidget {
           projectSkill: "Ux Ui Design",
           projectInfo: "Choose Your Education Carefully",
           projectImage: "assets/RateMyEdu.png",
-          openLink:
-              "https://www.figma.com/file/kINA6z7IzeajI65iLYMCNI/RateMyEducation?node-id=0%3A1",
+          openLink: "/ratemyEducation",
         ),
         SizedBox(
           height: 28,
@@ -149,8 +156,7 @@ class MobileHomeScreen extends StatelessWidget {
           projectSkill: "Ux Ui Design",
           projectInfo: "Laptop for every ONE",
           projectImage: "assets/Senpai-Laptop-Pics.png",
-          openLink:
-              "https://www.figma.com/file/kFKgPDe30jfdQxAil8YMsT/Senpai-Laptops?node-id=23%3A40",
+          openLink: "/senpailaptops",
         ),
         SizedBox(
           height: 28,
@@ -160,8 +166,7 @@ class MobileHomeScreen extends StatelessWidget {
           projectSkill: "Ux Ui Design",
           projectInfo: "Choose Your Education Carefully",
           projectImage: "assets/RateMyEdu.png",
-          openLink:
-              "https://www.figma.com/file/kINA6z7IzeajI65iLYMCNI/RateMyEducation?node-id=0%3A1",
+          openLink: "/ratemyEducation",
         ),
         SizedBox(
           height: 28,

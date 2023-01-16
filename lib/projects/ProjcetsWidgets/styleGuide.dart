@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:Yashwant/portfolioColor.dart';
+import 'package:icons_plus/icons_plus.dart';
+
 import 'package:Yashwant/projects/ProjcetsWidgets/design.dart';
 
-class ProjectStyleGuide extends StatelessWidget {
+class SenpaiLaptopProjectStyleGuide extends StatelessWidget {
   final double? paddingSize;
   final String? title;
   final double? titleSize;
@@ -17,7 +19,7 @@ class ProjectStyleGuide extends StatelessWidget {
 
   final double? subTitleSize;
 
-  ProjectStyleGuide({
+  SenpaiLaptopProjectStyleGuide({
     Key? key,
     this.iconsSize,
     this.circleSize,
@@ -335,5 +337,240 @@ class CustomCircle extends StatelessWidget {
         )
       ],
     ));
+  }
+}
+
+class RateMyEduProjectStyleGuide extends StatelessWidget {
+  final double? paddingSize;
+  final String? title;
+  final double? titleSize;
+  final double? iconsSize;
+
+  final double? spaceBetween;
+
+  final String? info;
+  final double? infoSize;
+
+  final double? circleSize;
+
+  final double? subTitleSize;
+
+  RateMyEduProjectStyleGuide({
+    Key? key,
+    this.iconsSize,
+    this.circleSize,
+    this.paddingSize,
+    this.infoSize,
+    this.info,
+    this.title,
+    this.titleSize,
+    this.subTitleSize,
+    this.spaceBetween,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: EdgeInsets.only(left: paddingSize!, right: paddingSize!),
+      child: Column(
+        children: [
+          CustomWidget(
+              title: title,
+              titleSize: titleSize,
+              info: info,
+              infoSize: infoSize),
+          SizedBox(
+            height: spaceBetween,
+          ),
+          Container(
+            height: 850,
+            padding: EdgeInsets.all(20.0),
+            decoration: BoxDecoration(
+              color: PortfolioColor.ligthGreyColor,
+              borderRadius: BorderRadius.all(Radius.circular(10)),
+            ),
+            child: Row(
+              children: [
+                Expanded(
+                    child: Column(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      "COLOR Palette",
+                      style: TextStyle(
+                          fontSize: subTitleSize, fontFamily: "CrimsonPro"),
+                    ),
+                    Container(
+                      padding: EdgeInsets.fromLTRB(40, 20, 20, 40),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.all(Radius.circular(10)),
+                      ),
+                      child: Column(
+                        children: [
+                          Row(
+                            children: [
+                              CustomCircle(
+                                circleSize: circleSize,
+                                color: "Yellow",
+                                colorCode: "#FFE609",
+                                circleColor: Color(0xFFFFE609),
+                              ),
+                              CustomCircle(
+                                circleSize: circleSize,
+                                color: "Light Blue",
+                                colorCode: "#DFF1F9",
+                                circleColor: Color(0xFFDFF1F9),
+                              ),
+                              CustomCircle(
+                                circleSize: circleSize,
+                                color: "Grey",
+                                colorCode: "#CECECE",
+                                circleColor: Color(0xFFCECECE),
+                              ),
+                            ],
+                          ),
+                          SizedBox(
+                            height: spaceBetween,
+                          ),
+                          Row(
+                            children: [
+                              CustomCircle(
+                                circleSize: circleSize,
+                                color: "Dark Blue",
+                                colorCode: "#1363DF",
+                                circleColor: Color(0xFF1363DF),
+                              ),
+                              CustomCircle(
+                                circleSize: circleSize,
+                                color: "Black",
+                                colorCode: "#000000",
+                                circleColor: Color(0xFF000000),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                )),
+                Expanded(
+                    child: Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Padding(
+                      padding: EdgeInsets.only(left: 20),
+                      child: Text(
+                        "ICONS",
+                        style: TextStyle(
+                            fontSize: subTitleSize, fontFamily: "CrimsonPro"),
+                      ),
+                    ),
+                    Expanded(
+                      child: Container(
+                        padding: EdgeInsets.fromLTRB(50, 20, 50, 30),
+                        margin: EdgeInsets.only(left: 20),
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.all(Radius.circular(10)),
+                        ),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Icon(
+                              Icons.book,
+                              size: iconsSize,
+                            ),
+                            Icon(
+                              Icons.star,
+                              size: iconsSize,
+                            ),
+                            Logo(
+                              Logos.google,
+                              color: Colors.black,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(
+                        left: 20,
+                      ),
+                      child: Text(
+                        "TYPEFACE",
+                        style: TextStyle(
+                            fontSize: subTitleSize, fontFamily: "CrimsonPro"),
+                      ),
+                    ),
+                    Expanded(
+                      child: Container(
+                        // padding: EdgeInsets.only(
+                        //     left: 200, right: 200, top: 50, bottom: 50),
+                        margin: EdgeInsets.only(
+                          left: 20,
+                        ),
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.all(Radius.circular(10)),
+                        ),
+                        child: Row(
+                          children: [
+                            Expanded(flex: 1, child: Container()),
+                            Expanded(
+                              flex: 4,
+                              child: Column(
+                                // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                children: [
+                                  Text(
+                                    "Crimson Pro-Italic",
+                                    style: TextStyle(
+                                      fontFamily: "CrimsonPro-Italic",
+                                      fontSize: 34,
+                                      color: Color(0xFF47B5FF),
+                                    ),
+                                  ),
+                                  Text(
+                                    "Dosis",
+                                    style: TextStyle(
+                                        fontFamily: "Dosis",
+                                        fontSize: 34,
+                                        color: Colors.black),
+                                  ),
+                                  Text(
+                                    "Crimson Pro",
+                                    style: TextStyle(
+                                      fontFamily: "CrimsonPro",
+                                      fontSize: 34,
+                                      color: Colors.black,
+                                    ),
+                                  ),
+                                  Text(
+                                    "Roboto",
+                                    style: TextStyle(
+                                      fontFamily: "CrimsonPro-Italic",
+                                      fontSize: 34,
+                                      color: Colors.black,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Expanded(flex: 1, child: Container())
+                          ],
+                        ),
+                      ),
+                    ),
+                  ],
+                ))
+              ],
+            ),
+          )
+        ],
+      ),
+    );
   }
 }
