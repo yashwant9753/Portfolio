@@ -101,7 +101,7 @@ class ProjectDesign extends StatelessWidget {
                                     height: 50,
                                   ),
                                   Text(
-                                    "Grid Information",
+                                    "Grid Information(Desktop, Tablet, Mobile)",
                                     style: TextStyle(
                                         fontSize: designInfoSize,
                                         fontFamily: "CrimsonPro-Italic"),
@@ -314,31 +314,22 @@ class MobileProjectDesign extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
-                      "Grid Information",
-                      style: TextStyle(
-                          fontSize: 23, fontFamily: "CrimsonPro-Italic"),
-                    ),
-                    Text(
-                      "iPhone 13 Mini : 375px × 812px",
-                      style: TextStyle(
-                          fontSize: 17, fontFamily: "CrimsonPro-Italic"),
-                    ),
-                    Text(
-                      "Column : 6",
-                      style: TextStyle(
-                          fontSize: 17, fontFamily: "CrimsonPro-Italic"),
-                    ),
-                    Text(
-                      "Margin : 16",
-                      style: TextStyle(
-                          fontSize: 17, fontFamily: "CrimsonPro-Italic"),
-                    ),
-                    Text(
-                      "Glutter : 16",
-                      style: TextStyle(
-                          fontSize: 17, fontFamily: "CrimsonPro-Italic"),
-                    ),
+                    CustomDesignInfo(
+                        designKey: "iPhone 13 Mini : ",
+                        designInfo: designInfo![0],
+                        designInfoSize: designInfoSize),
+                    CustomDesignInfo(
+                        designKey: "Column : ",
+                        designInfo: designInfo![1],
+                        designInfoSize: designInfoSize),
+                    CustomDesignInfo(
+                        designKey: "Margin : ",
+                        designInfo: designInfo![2],
+                        designInfoSize: designInfoSize),
+                    CustomDesignInfo(
+                        designKey: "Glutter : ",
+                        designInfo: designInfo![3],
+                        designInfoSize: designInfoSize),
                   ],
                 ),
                 SizedBox(

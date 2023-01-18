@@ -24,6 +24,10 @@ class DesktopHeaderScreen extends StatelessWidget {
                 SizedBox(
                   width: 60,
                 ),
+                _NavBarItem("Projects", 28, "/projects"),
+                SizedBox(
+                  width: 60,
+                ),
                 _NavBarItem("Resume", 28, "/resume"),
                 SizedBox(
                   width: 60,
@@ -141,6 +145,10 @@ class TabletHeader extends StatelessWidget {
                 SizedBox(
                   width: 55,
                 ),
+                _NavBarItem("Projects", 28, "/projects"),
+                SizedBox(
+                  width: 55,
+                ),
                 _NavBarItem("Resume", 24, "/resume"),
                 SizedBox(
                   width: 55,
@@ -236,11 +244,15 @@ class NavigationDrawerWidget extends StatelessWidget {
                         onClicked: () => selectedItem(context, 0),
                       )
                     : Text(""),
-                const SizedBox(height: 16),
+                buildMenuItem(
+                  text: 'Project',
+                  icon: Icons.book,
+                  onClicked: () => selectedItem(context, 1),
+                ),
                 buildMenuItem(
                   text: 'Resume',
                   icon: Icons.book,
-                  onClicked: () => selectedItem(context, 1),
+                  onClicked: () => selectedItem(context, 2),
                 ),
               ],
             ),
@@ -334,6 +346,13 @@ class NavigationDrawerWidget extends StatelessWidget {
         //     ));
         break;
       case 1:
+        Navigator.pushNamed(context, "/projects");
+
+        // Navigator.of(context).push(MaterialPageRoute(
+        //     // builder: (context) => FavouritesPage(),
+        //     ));
+        break;
+      case 2:
         Navigator.pushNamed(context, "/resume");
 
         // Navigator.of(context).push(MaterialPageRoute(

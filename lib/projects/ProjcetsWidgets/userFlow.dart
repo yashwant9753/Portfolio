@@ -44,8 +44,15 @@ class ProjectUserFlow extends StatelessWidget {
                     ? 600
                     : 900
                 : 1400,
-            color: PortfolioColor.lightgreyColor,
+            decoration: BoxDecoration(
+              color: PortfolioColor.lightgreyColor,
+              borderRadius: BorderRadius.all(Radius.circular(10)),
+            ),
             child: Container(
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(10)),
+                  image: DecorationImage(
+                      image: AssetImage(projectImage!), fit: BoxFit.fill)),
               padding: isMobile!
                   ? EdgeInsets.all(imageSpaceing!)
                   : EdgeInsets.fromLTRB(
@@ -53,12 +60,6 @@ class ProjectUserFlow extends StatelessWidget {
                       imageSpaceing! - 100,
                       imageSpaceing! + width < 1600 ? 50 : 150,
                       imageSpaceing! - 100),
-              child: Container(
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.all(Radius.circular(10)),
-                    image: DecorationImage(
-                        image: AssetImage(projectImage!), fit: BoxFit.fill)),
-              ),
             ),
           ),
         ],

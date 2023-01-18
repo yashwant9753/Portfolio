@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:Yashwant/aboutMe.dart';
-import 'package:Yashwant/colors.dart';
 import 'package:Yashwant/header.dart';
 import 'package:Yashwant/heroContent.dart';
 import 'package:Yashwant/projectBanner.dart';
@@ -25,11 +22,13 @@ class DesktopHomeScreen extends StatelessWidget {
           height: 28,
         ),
         DesktopTechnicalSkills(),
-        SizedBox(
-          height: 28,
-        ),
-        SizedBox(
-          height: 28,
+        Padding(
+          padding: const EdgeInsets.only(left: 80, top: 28, bottom: 28),
+          child: Text(
+            "Projects",
+            style: TextStyle(
+                color: Colors.black, fontSize: 40.0, fontFamily: "CrimsonPro"),
+          ),
         ),
         DesktopProjectBanner(
           projectTitle: "Senpai Laptops",
@@ -89,12 +88,15 @@ class TabletHomeScreen extends StatelessWidget {
           height: 35,
         ),
         TabletTechnicalSkills(),
-        SizedBox(
-          height: 35,
-        ),
+
         // TabletTechenicalSkills(),
-        SizedBox(
-          height: 35,
+        Padding(
+          padding: const EdgeInsets.only(left: 16, top: 28, bottom: 28),
+          child: Text(
+            "Projects",
+            style: TextStyle(
+                color: Colors.black, fontSize: 40.0, fontFamily: "CrimsonPro"),
+          ),
         ),
         TabletProjectBanner(
           projectTitle: "Senpai Laptops",
@@ -148,8 +150,13 @@ class MobileHomeScreen extends StatelessWidget {
           height: 20,
         ),
         MobileTechnicalSkills(),
-        SizedBox(
-          height: 28,
+        Padding(
+          padding: const EdgeInsets.only(left: 16, top: 20, bottom: 20),
+          child: Text(
+            "Projects",
+            style: TextStyle(
+                color: Colors.black, fontSize: 30.0, fontFamily: "CrimsonPro"),
+          ),
         ),
         MobileProjectBanner(
           projectTitle: "Senpai Laptops",
@@ -159,7 +166,7 @@ class MobileHomeScreen extends StatelessWidget {
           openLink: "/senpailaptops",
         ),
         SizedBox(
-          height: 28,
+          height: 20,
         ),
         MobileProjectBanner(
           projectTitle: "RatemyEducation",
@@ -169,7 +176,7 @@ class MobileHomeScreen extends StatelessWidget {
           openLink: "/ratemyEducation",
         ),
         SizedBox(
-          height: 28,
+          height: 20,
         ),
         MobileProjectBanner(
           projectTitle: "MemeShare",
@@ -178,7 +185,7 @@ class MobileHomeScreen extends StatelessWidget {
           projectImage: "assets/MemeShare.png",
         ),
         SizedBox(
-          height: 28,
+          height: 20,
         ),
       ]).scrollVertical(),
     );

@@ -226,9 +226,9 @@ class MobileProjectStyleGuide extends StatelessWidget {
                       child: Column(
                         children: [
                           Text(
-                            "Crimson Pro-Italic",
+                            "Open Sans Italic",
                             style: TextStyle(
-                              fontFamily: "CrimsonPro-Italic",
+                              fontFamily: "Open-Sans-Italic",
                               fontSize: 34,
                               color: Color(0xFF47B5FF),
                             ),
@@ -241,9 +241,9 @@ class MobileProjectStyleGuide extends StatelessWidget {
                                 color: Colors.black),
                           ),
                           Text(
-                            "Crimson Pro",
+                            "Open Sans Bold",
                             style: TextStyle(
-                              fontFamily: "CrimsonPro",
+                              fontFamily: "Open-Sans-Bold",
                               fontSize: 34,
                               color: Colors.black,
                             ),

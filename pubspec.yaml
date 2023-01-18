@@ -77,6 +77,11 @@ flutter:
     - assets/
     - assets/ratemyhome.png
     - assets/RateMyEduReviewPage.png
+    - assets/RateMyEduPrototype.png
+    - assets/RateMyEduUserFlow.png
+    - assets/RateMyEduUserFlow2.png
+    - assets/ratemyeduWireframe.png
+    
     
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -116,6 +121,13 @@ flutter:
     - family: Raleway-VariableFont_wght
       fonts:
         - asset: fonts/Raleway-VariableFont_wght.ttf
+
+    - family: Open-Sans-Italic
+      fonts:
+        - asset: fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf
+    - family: Open-Sans-Bold
+      fonts:
+        - asset: fonts/OpenSans-VariableFont_wdth,wght.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

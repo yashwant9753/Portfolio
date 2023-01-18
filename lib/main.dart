@@ -1,3 +1,4 @@
+import 'package:Yashwant/ProjectHome/projectResponsive.dart';
 import 'package:Yashwant/RateMyEduProject/RateMyEduProjectResponsive.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -21,7 +22,8 @@ class MyApp extends StatelessWidget {
         '/': (context) => ResponsiveLayout(),
         '/senpailaptops': (context) => SenpaiResponsiveLayout(),
         '/ratemyEducation': (context) => RateMyEduResponsiveLayout(),
-        '/resume': (context) => ResumeResponsiveLayout()
+        '/resume': (context) => ResumeResponsiveLayout(),
+        '/projects': (context) => ProjectResponsiveLayout()
       },
       title: 'Portfolio',
       debugShowCheckedModeBanner: false,
