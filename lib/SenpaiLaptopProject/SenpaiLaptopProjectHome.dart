@@ -3,7 +3,7 @@ import 'package:Yashwant/header.dart';
 import 'package:Yashwant/projects/ProjcetsWidgets/MobileStyleGuide.dart';
 import 'package:Yashwant/projects/ProjcetsWidgets/design.dart';
 import 'package:Yashwant/projects/ProjcetsWidgets/designProcess.dart';
-import 'package:Yashwant/projects/ProjcetsWidgets/header.dart';
+import 'package:Yashwant/projects/ProjcetsWidgets/Projectheader.dart';
 import 'package:Yashwant/projects/ProjcetsWidgets/immersion.dart';
 import 'package:Yashwant/projects/ProjcetsWidgets/overview.dart';
 import 'package:Yashwant/projects/ProjcetsWidgets/prototype.dart';
@@ -28,6 +28,7 @@ class SenpaiDesktopProjectScreen extends StatelessWidget {
           projectSkill: "Ux Ui Design",
           projectInfo: "Laptop for every ONE",
           projectImage: "assets/Senpai-Laptop-Pics.png",
+          isApp: false,
         ),
         SizedBox(
           height: 28,
@@ -197,6 +198,7 @@ class SenpaiTabletProjectScreen extends StatelessWidget {
           projectSkill: "Ux Ui Design",
           projectInfo: "Laptop for every ONE",
           projectImage: "assets/Senpai-Laptop-Pics.png",
+          isApp: false,
           openLink:
               "https://www.figma.com/file/kFKgPDe30jfdQxAil8YMsT/Senpai-Laptops?node-id=23%3A40",
         ),
@@ -368,6 +370,7 @@ class SenpaiMobileProjectScreen extends StatelessWidget {
           projectSkill: "Ux Ui Design",
           projectInfo: "Laptop for every ONE",
           projectImage: "assets/Senpai-Laptop-Pics.png",
+          isApp: false,
           openLink:
               "https://www.figma.com/file/kFKgPDe30jfdQxAil8YMsT/Senpai-Laptops?node-id=23%3A40",
         ),
@@ -469,12 +472,13 @@ class SenpaiMobileProjectScreen extends StatelessWidget {
                 """Next,  sketched low-fidelity wireframes with pencil and paper. After that general layouts of our screens, and turned to Figma for our mid-fidelity wireframes. As this was a person project, it takes time. Before wireframing, I decided to apply a 6-column grid with 16 margin on both side  to create an organized and consistent look throughout our screens.""",
             infoSize: 17,
             designInfo: [
-              "375px × 812px", //minimumn
-              "6",
-              "16",
-              "16",
+              """1440×2204, 834x1570, 
+                         320x568""", //minimumn
+              "12, 6, 6",
+              "80, 16, 16",
+              "20, 16, 16 ",
             ],
-            designInfoSize: 28),
+            designInfoSize: 15),
         MobileProjectStyleGuide(
             paddingSize: 16,
             title: "Style Guide",

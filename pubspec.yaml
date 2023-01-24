@@ -45,6 +45,7 @@ dependencies:
   http: ^0.13.5
   flutter_svg: ^1.1.6
   flutter_svg_provider: ^1.0.3
+  firebase_core: ^2.4.1
   
 
 
@@ -81,6 +82,9 @@ flutter:
     - assets/RateMyEduUserFlow.png
     - assets/RateMyEduUserFlow2.png
     - assets/ratemyeduWireframe.png
+    - assets/ratemyeducationbanner.png
+    - assets/memesharebanner.png
+    - assets/HeroImage.jpg
     
     
 

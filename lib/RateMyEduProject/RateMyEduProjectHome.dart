@@ -3,7 +3,7 @@ import 'package:Yashwant/header.dart';
 import 'package:Yashwant/projects/ProjcetsWidgets/MobileStyleGuide.dart';
 import 'package:Yashwant/projects/ProjcetsWidgets/design.dart';
 import 'package:Yashwant/projects/ProjcetsWidgets/designProcess.dart';
-import 'package:Yashwant/projects/ProjcetsWidgets/header.dart';
+import 'package:Yashwant/projects/ProjcetsWidgets/Projectheader.dart';
 import 'package:Yashwant/projects/ProjcetsWidgets/immersion.dart';
 import 'package:Yashwant/projects/ProjcetsWidgets/overview.dart';
 import 'package:Yashwant/projects/ProjcetsWidgets/prototype.dart';
@@ -28,6 +28,7 @@ class RateMyEduDesktopProjectScreen extends StatelessWidget {
           projectSkill: "Ux Ui Design",
           projectInfo: "Choose Your Education Carefully",
           projectImage: "assets/RateMyEdu.png",
+          isApp: false,
         ),
         SizedBox(
           height: 28,
@@ -96,9 +97,9 @@ This Website is first think as a startup by my self so, I decided to design this
           infoSize: 28,
           projectImage: "assets/ratemyhome.png",
           info:
-              """After the immersion stage comes research. UX design begins with a study of the target audience and their needs. You’ll use this information to create products and services that are helpful to the people who belong to your audience and are easy to use. At this stage, our Design team studies the project requirements, analyzes users’ behaviors, and conducts a competitive analysis.
+              """After the immersion stage comes research. UX design begins with a study of the target audience and their needs. You’ll use this information to create products and services that are helpful to the people who belong to your audience and are easy to use. At this stage, project requirements, analyzes users’ behaviors, and conducts a competitive analysis.
 
-First, study all available project materials, whether they describe a basic business idea or provide a detailed specification that fully describes the desired functionality, mindmaps, and user roles. Once you’ve analyzed all of the information you’ve received from your client, create personalas and a user-journey map.""",
+First, study all available project materials, whether they describe a basic business idea or provide a detailed specification that fully describes the desired functionality, mindmaps, and user roles. Once you’ve analyzed all of the information you’ve received from your client, create personal and a user-journey map.""",
         ),
         SizedBox(
           height: 28,
@@ -112,7 +113,7 @@ First, study all available project materials, whether they describe a basic busi
           imageToggle: false,
           projectImage: "assets/ratemyeduWireframe.png",
           info:
-              """Wireframes define the underlying structure, as well as the information hierarchy, for this mobile app’s design, I tries to make all the layout simple and minilistic so that the user can easly navigte to tha UI and browse the computer. """,
+              """Wireframes define the underlying structure, as well as the information hierarchy, for this Project design, I tries to make all the layout for Mobile and Web simple and minilistic so that the user can easly navigte to the APP and browse the Website easly. """,
         ),
         SizedBox(
           height: 28,
@@ -136,7 +137,7 @@ First, study all available project materials, whether they describe a basic busi
             spaceBetween: 35,
             imageSpaceing: 150,
             info:
-                """Next,  sketched low-fidelity wireframes with pencil and paper. After that general layouts of our screens, and turned to Figma for our mid-fidelity wireframes. As this was a personal project, it takes time. Before wireframing, I decided to apply a 6-column grid with 16 margin on both side  to create an organized and consistent look throughout our screens.""",
+                """Next,  sketched low-fidelity wireframes with pencil and paper. After that general layouts of our screens, and turned to Figma for our mid-fidelity wireframes. As this was a personal project, it takes time. After wireframing, I decided to applied 80, 16 and 16 Margin for Desktop, Tablet and Mobile to create an organized and consistent look throughout our screens.""",
             infoSize: 28,
             leftImage: "assets/ratemyhome.png",
             rightImage: "assets/RateMyEduReviewPage.png",
@@ -173,7 +174,7 @@ First, study all available project materials, whether they describe a basic busi
           spaceBetween: 80,
           projectImage: "assets/RateMyEduPrototype.png",
           info:
-              """We continued to use FIgma to create the high-fidelity wireframes and an interactive prototype. I also used Figma’s auto-animate feature to make the app more fun and engaging for the users. We incorporated as many interactions and animations as we could, while making sure that they made sense in the overall flow and were not distracting or disruptive to the experience.""",
+              """I used Figma to create the high-fidelity wireframes and an interactive prototype. I also used Figma’s auto-animate feature to make the UI more fun and engaging for the users. We incorporated as many interactions and animations as we could, while making sure that they made sense in the overall flow and were not distracting or disruptive to the experience.""",
           infoSize: 28,
         ),
       ]).scrollVertical(),
@@ -198,6 +199,7 @@ class RateMyEduTabletProjectScreen extends StatelessWidget {
           projectSkill: "Ux Ui Design",
           projectInfo: "Choose Your Education Carefully",
           projectImage: "assets/RateMyEdu.png",
+          isApp: false,
         ),
         SizedBox(
           height: 15,
@@ -266,9 +268,9 @@ This Website is first think as a startup by my self so, I decided to design this
           infoSize: 23,
           projectImage: "assets/ratemyhome.png",
           info:
-              """After the immersion stage comes research. UX design begins with a study of the target audience and their needs. You’ll use this information to create products and services that are helpful to the people who belong to your audience and are easy to use. At this stage, our Design team studies the project requirements, analyzes users’ behaviors, and conducts a competitive analysis.
+              """After the immersion stage comes research. UX design begins with a study of the target audience and their needs. You’ll use this information to create products and services that are helpful to the people who belong to your audience and are easy to use. At this stage, project requirements, analyzes users’ behaviors, and conducts a competitive analysis.
 
-First, study all available project materials, whether they describe a basic business idea or provide a detailed specification that fully describes the desired functionality, mindmaps, and user roles. Once you’ve analyzed all of the information you’ve received from your client, create personalas and a user-journey map.""",
+First, study all available project materials, whether they describe a basic business idea or provide a detailed specification that fully describes the desired functionality, mindmaps, and user roles. Once you’ve analyzed all of the information you’ve received from your client, create personal and a user-journey map.""",
         ),
         SizedBox(
           height: 15,
@@ -282,7 +284,7 @@ First, study all available project materials, whether they describe a basic busi
           infoSize: 23,
           projectImage: "assets/ratemyeduWireframe.png",
           info:
-              """Wireframes define the underlying structure, as well as the information hierarchy, for this mobile app’s design, I tries to make all the layout simple and minilistic so that the user can easly navigte to tha UI and browse the computer. """,
+              """Wireframes define the underlying structure, as well as the information hierarchy, for this Project design, I tries to make all the layout for Mobile and Web simple and minilistic so that the user can easly navigte to the APP and browse the Website easly. """,
         ),
         SizedBox(
           height: 15,
@@ -306,7 +308,7 @@ First, study all available project materials, whether they describe a basic busi
             spaceBetween: 35,
             imageSpaceing: 150,
             info:
-                """Next,  sketched low-fidelity wireframes with pencil and paper. After that general layouts of our screens, and turned to Figma for our mid-fidelity wireframes. As this was a person project, it takes time. Before wireframing, I decided to apply a 6-column grid with 16 margin on both side  to create an organized and consistent look throughout our screens.""",
+                """Next,  sketched low-fidelity wireframes with pencil and paper. After that general layouts of our screens, and turned to Figma for our mid-fidelity wireframes. As this was a personal project, it takes time. After wireframing, I decided to applied 80, 16 and 16 Margin for Desktop, Tablet and Mobile to create an organized and consistent look throughout our screens.""",
             infoSize: 23,
             leftImage: "assets/ratemyhome.png",
             rightImage: "assets/RateMyEduReviewPage.png",
@@ -340,7 +342,7 @@ First, study all available project materials, whether they describe a basic busi
           spaceBetween: 35,
           projectImage: "assets/RateMyEduPrototype.png",
           info:
-              """We continued to use FIgma to create the high-fidelity wireframes and an interactive prototype. I also used Figma’s auto-animate feature to make the app more fun and engaging for the users. We incorporated as many interactions and animations as we could, while making sure that they made sense in the overall flow and were not distracting or disruptive to the experience.""",
+              """I used Figma to create the high-fidelity wireframes and an interactive prototype. I also used Figma’s auto-animate feature to make the UI more fun and engaging for the users. We incorporated as many interactions and animations as we could, while making sure that they made sense in the overall flow and were not distracting or disruptive to the experience.""",
           infoSize: 23,
         ),
       ]).scrollVertical(),
@@ -364,7 +366,8 @@ class RateMyEduMobileProjectScreen extends StatelessWidget {
           projectTitle: "Senpai Laptops",
           projectSkill: "Ux Ui Design",
           projectInfo: "Laptop for every ONE",
-          projectImage: "assets/Senpai-Laptop-Pics.png",
+          projectImage: "assets/ratemyeducationbanner.png",
+          isApp: false,
           openLink:
               "https://www.figma.com/file/kFKgPDe30jfdQxAil8YMsT/Senpai-Laptops?node-id=23%3A40",
         ),
@@ -378,9 +381,9 @@ class RateMyEduMobileProjectScreen extends StatelessWidget {
           spaceBetween: 20,
           infoSize: 17,
           info:
-              """I'm a simple-minded Software Engineeri! who likely loves programming and Gaming, I always try to work in a minimalistic way so things are turn simple and easy to understand.\n
-    Application Development, Data Science, Cloud computing, and illustration   my kin interest things w hich I love to learn.
-    Currently, I'm working on sharpening my skill in Flutter, ReactJS, UX/UI Design, and DSA.""",
+              """A RateMyEducation is a website on which Ratings can be posted about Online Courses, Colleges, and Schools. These sites may use techniques to gather reviews from  Students.
+This Website provides better clarity about the Courses, Colleges, and School So that the Student can choose their education carefully.
+""",
         ),
         SizedBox(
           height: 10,
@@ -393,10 +396,8 @@ class RateMyEduMobileProjectScreen extends StatelessWidget {
           designTitleSize: 12,
           spaceBetween: 24,
           infoSize: 17,
-          info:
-              """I'm a simple-minded Software Engineeri! who likely loves programming and Gaming, I always try to work in a minimalistic way so things are turn simple and easy to understand.\n
-    Application Development, Data Science, Cloud computing, and illustration   my kin interest things w hich I love to learn.
-    Currently, I'm working on sharpening my skill in Flutter, ReactJS, UX/UI Design, and DSA.""",
+          info: """
+This Website is first think as a startup by my self so, I decided to design this website as carefully on Figma. It takes about 15 to 20 days to totally finish the Design.""",
           designProcess: [
             "IMMERSION",
             "RESEARCH",
@@ -431,9 +432,9 @@ class RateMyEduMobileProjectScreen extends StatelessWidget {
           infoSize: 17,
           projectImage: "assets/ratemyeduhome.png",
           info:
-              """After the immersion stage comes research. UX design begins with a study of the target audience and their needs. You’ll use this information to create products and services that are helpful to the people who belong to your audience and are easy to use. At this stage, our Design team studies the project requirements, analyzes users’ behaviors, and conducts a competitive analysis.
-    
-    First, study all available project materials, whether they describe a basic business idea or provide a detailed specification that fully describes the desired functionality, mindmaps, and user roles. Once you’ve analyzed all of the information you’ve received from your client, create personas and a user-journey map.""",
+              """After the immersion stage comes research. UX design begins with a study of the target audience and their needs. You’ll use this information to create products and services that are helpful to the people who belong to your audience and are easy to use. At this stage, project requirements, analyzes users’ behaviors, and conducts a competitive analysis.
+
+First, study all available project materials, whether they describe a basic business idea or provide a detailed specification that fully describes the desired functionality, mindmaps, and user roles. Once you’ve analyzed all of the information you’ve received from your client, create personal and a user-journey map.""",
         ),
         ProjectWireFrame(
           paddingSize: 16,
@@ -444,7 +445,7 @@ class RateMyEduMobileProjectScreen extends StatelessWidget {
           infoSize: 17,
           projectImage: "assets/ratemyeduWireframe.png",
           info:
-              """Wireframes define the underlying structure, as well as the information hierarchy, for this mobile app’s design, I tries to make all the layout simple and minilistic so that the user can easly navigte to tha UI and browse the computer. """,
+              """Wireframes define the underlying structure, as well as the information hierarchy, for this Project design, I tries to make all the layout for Mobile and Web simple and minilistic so that the user can easly navigte to the APP and browse the Website easly. """,
         ),
         ProjectUserFlow(
           paddingSize: 16,
@@ -463,15 +464,16 @@ class RateMyEduMobileProjectScreen extends StatelessWidget {
             projectImage: "assets/ratemyhome.png",
             imageSpaceing: 150,
             info:
-                """Next,  sketched low-fidelity wireframes with pencil and paper. After that general layouts of our screens, and turned to Figma for our mid-fidelity wireframes. As this was a personalal project, it takes time. Before wireframing, I decided to apply a 6-column grid with 16 margin on both side  to create an organized and consistent look throughout our screens.""",
+                """Next,  sketched low-fidelity wireframes with pencil and paper. After that general layouts of our screens, and turned to Figma for our mid-fidelity wireframes. As this was a personal project, it takes time. After wireframing, I decided to applied 80, 16 and 16 Margin for Desktop, Tablet and Mobile to create an organized and consistent look throughout our screens.""",
             infoSize: 17,
             designInfo: [
-              "1440×2204, 834x1570, 320x568", //minimumn
+              """1440×2204, 834x1570, 
+                         320x568""", //minimumn
               "12, 6, 6",
               "80, 16, 16",
               "20, 16, 16 ",
             ],
-            designInfoSize: 28),
+            designInfoSize: 15),
         RateMyEduMobileProjectStyleGuide(
             paddingSize: 16,
             title: "Style Guide",
@@ -491,7 +493,7 @@ class RateMyEduMobileProjectScreen extends StatelessWidget {
           spaceBetween: 20,
           projectImage: "assets/RateMyEduPrototype.png",
           info:
-              """We continued to use FIgma to create the high-fidelity wireframes and an interactive prototype. I also used Figma’s auto-animate feature to make the app more fun and engaging for the users. We incorporated as many interactions and animations as we could, while making sure that they made sense in the overall flow and were not distracting or disruptive to the experience.""",
+              """I used Figma to create the high-fidelity wireframes and an interactive prototype. I also used Figma’s auto-animate feature to make the UI more fun and engaging for the users. We incorporated as many interactions and animations as we could, while making sure that they made sense in the overall flow and were not distracting or disruptive to the experience.""",
           infoSize: 17,
         ),
       ]).scrollVertical(),

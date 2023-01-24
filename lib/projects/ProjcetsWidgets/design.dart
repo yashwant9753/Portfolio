@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:Yashwant/portfolioColor.dart';
 
 class ProjectDesign extends StatelessWidget {
@@ -314,6 +312,12 @@ class MobileProjectDesign extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
+                    Text(
+                      "Grid Information(Desktop, Tablet, Mobile)",
+                      style: TextStyle(
+                          fontSize: designInfoSize,
+                          fontFamily: "CrimsonPro-Italic"),
+                    ),
                     CustomDesignInfo(
                         designKey: "iPhone 13 Mini : ",
                         designInfo: designInfo![0],
@@ -331,9 +335,6 @@ class MobileProjectDesign extends StatelessWidget {
                         designInfo: designInfo![3],
                         designInfoSize: designInfoSize),
                   ],
-                ),
-                SizedBox(
-                  width: 50,
                 ),
                 Container(
                     height: 300,

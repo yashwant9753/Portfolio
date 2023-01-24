@@ -57,6 +57,7 @@ class DesktopHomeScreen extends StatelessWidget {
           projectSkill: "Flutter App",
           projectInfo: "Share the happiness",
           projectImage: "assets/MemeShare.png",
+          openLink: "/memeshare",
           isApp: true,
           gitHubLink: "https://github.com/yashwant9753/MemeShare",
           videoLink:
@@ -104,6 +105,7 @@ class TabletHomeScreen extends StatelessWidget {
           projectInfo: "Laptop for every ONE",
           projectImage: "assets/Senpai-Laptop-Pics.png",
           openLink: "/senpailaptops",
+          isApp: false,
         ),
         SizedBox(
           height: 28,
@@ -114,6 +116,7 @@ class TabletHomeScreen extends StatelessWidget {
           projectInfo: "Choose Your Education Carefully",
           projectImage: "assets/RateMyEdu.png",
           openLink: "/ratemyEducation",
+          isApp: false,
         ),
         SizedBox(
           height: 28,
@@ -123,6 +126,13 @@ class TabletHomeScreen extends StatelessWidget {
           projectSkill: "Flutter App",
           projectInfo: "Share the happiness",
           projectImage: "assets/MemeShare.png",
+          openLink: "/memeshare",
+          isApp: true,
+          gitHubLink: "https://github.com/yashwant9753/MemeShare",
+          videoLink:
+              "https://www.youtube.com/watch?v=Z3RTO-juN4I&ab_channel=YashwantSahu",
+          appLink:
+              "https://drive.google.com/file/d/1RD97YMViuwR9RCcm2_UNSRTvpxF5PTm4/view",
         ),
         SizedBox(
           height: 28,
@@ -162,8 +172,9 @@ class MobileHomeScreen extends StatelessWidget {
           projectTitle: "Senpai Laptops",
           projectSkill: "Ux Ui Design",
           projectInfo: "Laptop for every ONE",
-          projectImage: "assets/Senpai-Laptop-Pics.png",
+          projectImage: "assets/senpai.png",
           openLink: "/senpailaptops",
+          isApp: false,
         ),
         SizedBox(
           height: 20,
@@ -172,8 +183,9 @@ class MobileHomeScreen extends StatelessWidget {
           projectTitle: "RatemyEducation",
           projectSkill: "Ux Ui Design",
           projectInfo: "Choose Your Education Carefully",
-          projectImage: "assets/RateMyEdu.png",
+          projectImage: "assets/ratemyeducationbanner.png",
           openLink: "/ratemyEducation",
+          isApp: false,
         ),
         SizedBox(
           height: 20,
@@ -182,7 +194,14 @@ class MobileHomeScreen extends StatelessWidget {
           projectTitle: "MemeShare",
           projectSkill: "Flutter App",
           projectInfo: "Share the happiness",
-          projectImage: "assets/MemeShare.png",
+          projectImage: "assets/memesharebanner.png",
+          openLink: "/memeshare",
+          isApp: true,
+          gitHubLink: "https://github.com/yashwant9753/MemeShare",
+          videoLink:
+              "https://www.youtube.com/watch?v=Z3RTO-juN4I&ab_channel=YashwantSahu",
+          appLink:
+              "https://drive.google.com/file/d/1RD97YMViuwR9RCcm2_UNSRTvpxF5PTm4/view",
         ),
         SizedBox(
           height: 20,

@@ -100,83 +100,26 @@ class _DesktopProjectBannerState extends State<DesktopProjectBanner> {
                             widget.isApp!
                                 ? Row(
                                     children: [
-                                      InkWell(
-                                        onTap: () {
-                                          html.window.open(
-                                              widget.gitHubLink!, "_blank");
-                                        },
-                                        child: Container(
-                                          padding: EdgeInsets.all(10),
-                                          decoration: BoxDecoration(
-                                            color: PortfolioColor.buttonColor,
-                                            borderRadius: BorderRadius.all(
-                                                Radius.circular(10)),
-                                          ),
-                                          alignment: Alignment.center,
-                                          child: Text(
-                                            "GitHub",
-                                            style: TextStyle(
-                                              fontWeight: FontWeight.w800,
-                                              fontFamily: "Bebas-Neue",
-                                              fontSize: 20,
-                                              color: Colors.black,
-                                            ),
-                                          ),
-                                        ),
+                                      BannerButton(
+                                        link: widget.gitHubLink,
+                                        buttonText: "Github",
+                                        buttonTextSize: 20,
                                       ),
                                       SizedBox(
                                         width: 50,
                                       ),
-                                      InkWell(
-                                        onTap: () {
-                                          html.window
-                                              .open(widget.appLink!, "_blank");
-                                        },
-                                        child: Container(
-                                          padding: EdgeInsets.all(10),
-                                          alignment: Alignment.center,
-                                          decoration: BoxDecoration(
-                                            color: PortfolioColor.buttonColor,
-                                            borderRadius: BorderRadius.all(
-                                                Radius.circular(10)),
-                                          ),
-                                          child: Text(
-                                            "APK Link",
-                                            style: TextStyle(
-                                              fontSize: 20,
-                                              fontWeight: FontWeight.w800,
-                                              fontFamily: "Bebas-Neue",
-                                              color: Colors.black,
-                                            ),
-                                          ),
-                                        ),
+                                      BannerButton(
+                                        link: widget.appLink,
+                                        buttonText: "APK Link",
+                                        buttonTextSize: 20,
                                       ),
                                       SizedBox(
                                         width: 50,
                                       ),
-                                      InkWell(
-                                        onTap: () {
-                                          html.window.open(
-                                              widget.videoLink!, "_blank");
-                                        },
-                                        child: Container(
-                                          padding: EdgeInsets.all(10),
-                                          decoration: BoxDecoration(
-                                            color: PortfolioColor.buttonColor,
-                                            borderRadius: BorderRadius.all(
-                                                Radius.circular(10)),
-                                          ),
-                                          alignment: Alignment.center,
-                                          child: Text(
-                                            "Video Link",
-                                            style: TextStyle(
-                                              fontSize: 20,
-                                              fontFamily: "Bebas-Neue",
-                                              fontWeight: FontWeight.w800,
-                                              color: Colors.black,
-                                            ),
-                                          ),
-                                        ),
+                                      BannerButton(
+                                        link: widget.videoLink,
+                                        buttonText: "Video Link",
+                                        buttonTextSize: 20,
                                       ),
                                     ],
                                   )
@@ -205,16 +148,58 @@ class _DesktopProjectBannerState extends State<DesktopProjectBanner> {
   }
 }
 
+class BannerButton extends StatelessWidget {
+  final String? link;
+  final String? buttonText;
+  final double? buttonTextSize;
+  BannerButton({Key? key, this.link, this.buttonText, this.buttonTextSize})
+      : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+      onTap: () {
+        html.window.open(link!, "_blank");
+      },
+      child: Container(
+        padding: EdgeInsets.all(15),
+        decoration: BoxDecoration(
+          color: PortfolioColor.buttonColor,
+          borderRadius: BorderRadius.all(Radius.circular(8)),
+        ),
+        alignment: Alignment.center,
+        child: Text(
+          buttonText!,
+          style: TextStyle(
+            fontWeight: FontWeight.w800,
+            fontFamily: "Bebas-Neue",
+            fontSize: buttonTextSize,
+            color: Colors.black,
+          ),
+        ),
+      ),
+    );
+  }
+}
+
 class TabletProjectBanner extends StatefulWidget {
   final String? projectTitle;
   final String? projectSkill;
   final String? projectInfo;
   final String? projectImage;
   final String? openLink;
+  final bool? isApp;
+  final String? gitHubLink;
+  final String? videoLink;
+  final String? appLink;
   const TabletProjectBanner(
       {Key? key,
       this.projectTitle,
       this.projectSkill,
+      this.appLink,
+      this.gitHubLink,
+      this.videoLink,
+      this.isApp,
       this.projectInfo,
       this.openLink,
       this.projectImage})
@@ -282,6 +267,31 @@ class _TabletProjectBannerState extends State<TabletProjectBanner> {
                           SizedBox(
                             height: 50,
                           ),
+                          widget.isApp!
+                              ? Row(
+                                  children: [
+                                    BannerButton(
+                                      link: widget.gitHubLink!,
+                                      buttonTextSize: 18,
+                                      buttonText: "Github",
+                                    ),
+                                    SizedBox(
+                                      width: 50,
+                                    ),
+                                    BannerButton(
+                                        link: widget.appLink!,
+                                        buttonTextSize: 18,
+                                        buttonText: "APK Link"),
+                                    SizedBox(
+                                      width: 50,
+                                    ),
+                                    BannerButton(
+                                        link: widget.videoLink!,
+                                        buttonTextSize: 18,
+                                        buttonText: "Video Link"),
+                                  ],
+                                )
+                              : Text(""),
                         ],
                       ),
                     )),
@@ -311,8 +321,16 @@ class MobileProjectBanner extends StatelessWidget {
   final String? projectInfo;
   final String? projectImage;
   final String? openLink;
+  final bool? isApp;
+  final String? gitHubLink;
+  final String? videoLink;
+  final String? appLink;
   const MobileProjectBanner(
       {Key? key,
+      this.appLink,
+      this.gitHubLink,
+      this.videoLink,
+      this.isApp,
       this.projectTitle,
       this.projectSkill,
       this.projectInfo,
@@ -323,69 +341,77 @@ class MobileProjectBanner extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: () {
-        Navigator.pushNamed(context, openLink!);
-
-        // html.window.open(openLink!, "_blank");
-      },
-      child: Container(
-        color: Colors.black,
-        height: 300,
-        child: Column(
-          children: <Widget>[
-            Expanded(
-                child: Container(
-              decoration: BoxDecoration(
-                image: DecorationImage(
-                  image: AssetImage(projectImage!),
-                  fit: BoxFit.cover,
-                ),
+        onTap: () {
+          Navigator.pushNamed(context, openLink!);
+        },
+        child: Container(
+          height: 209,
+          width: MediaQuery.of(context).size.width,
+          padding: EdgeInsets.only(left: 16, top: 20),
+          decoration: BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage(projectImage!), fit: BoxFit.cover)),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                projectTitle!,
+                style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 42.0,
+                    fontFamily: "Bebas-Neue"),
               ),
-            )),
-            Expanded(
-              child: Container(
-                padding: EdgeInsets.only(top: 50, left: 5, right: 5),
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.start,
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: <Widget>[
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              Text(
+                projectSkill!,
+                style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 28.0,
+                    fontFamily: "Bebas-Neue"),
+              ),
+              Text(
+                projectInfo!,
+                style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 20.0,
+                    fontFamily: "CrimsonPro-Italic",
+                    fontStyle: FontStyle.italic),
+              ),
+              SizedBox(
+                height: 10,
+              ),
+              isApp!
+                  ? Row(
                       children: [
-                        Text(
-                          projectTitle!,
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 42.0,
-                              fontFamily: "Bebas-Neue"),
+                        BannerButton(
+                          link: gitHubLink,
+                          buttonText: "Github",
+                          buttonTextSize: 12,
                         ),
-                        Text(
-                          projectSkill!,
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 28.0,
-                              fontFamily: "Bebas-Neue"),
+                        SizedBox(
+                          width: 50,
+                        ),
+                        BannerButton(
+                          link: appLink,
+                          buttonText: "APK Link",
+                          buttonTextSize: 12,
+                        ),
+                        SizedBox(
+                          width: 50,
+                        ),
+                        BannerButton(
+                          link: videoLink,
+                          buttonText: "Video Link",
+                          buttonTextSize: 12,
                         ),
                       ],
-                    ),
-                    Text(
-                      projectInfo!,
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 20.0,
-                          fontFamily: "CrimsonPro-Italic",
-                          fontStyle: FontStyle.italic),
-                    ),
-                    SizedBox(
-                      height: 10,
-                    ),
-                  ],
-                ),
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
+                    )
+                  : Text(""),
+
+              // ReadmeButton(
+              //   title: "Read More >",
+              // )
+            ],
+          ),
+        ));
   }
 }

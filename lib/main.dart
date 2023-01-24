@@ -1,3 +1,4 @@
+import 'package:Yashwant/MemeShare/MemeShareResponsive.dart';
 import 'package:Yashwant/ProjectHome/projectResponsive.dart';
 import 'package:Yashwant/RateMyEduProject/RateMyEduProjectResponsive.dart';
 import 'package:flutter/material.dart';
@@ -23,7 +24,8 @@ class MyApp extends StatelessWidget {
         '/senpailaptops': (context) => SenpaiResponsiveLayout(),
         '/ratemyEducation': (context) => RateMyEduResponsiveLayout(),
         '/resume': (context) => ResumeResponsiveLayout(),
-        '/projects': (context) => ProjectResponsiveLayout()
+        '/projects': (context) => ProjectResponsiveLayout(),
+        '/memeshare': (context) => MemeShareResponsiveLayout()
       },
       title: 'Portfolio',
       debugShowCheckedModeBanner: false,
