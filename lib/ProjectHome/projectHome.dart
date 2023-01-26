@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:Yashwant/header.dart';
 import 'package:Yashwant/projectBanner.dart';
-
 import 'package:velocity_x/velocity_x.dart';
 
 class DesktopProjectHomeScreen extends StatelessWidget {

@@ -1,3 +1,4 @@
+import 'package:Yashwant/projects/ProjcetsWidgets/footer.dart';
 import 'package:flutter/material.dart';
 import 'package:Yashwant/header.dart';
 import 'package:Yashwant/projects/ProjcetsWidgets/MobileStyleGuide.dart';
@@ -176,6 +177,15 @@ First, study all available project materials, whether they describe a basic busi
               """We continued to use FIgma to create the high-fidelity wireframes and an interactive prototype. I also used Figma’s auto-animate feature to make the app more fun and engaging for the users. We incorporated as many interactions and animations as we could, while making sure that they made sense in the overall flow and were not distracting or disruptive to the experience.""",
           infoSize: 28,
         ),
+        SizedBox(
+          height: 28,
+        ),
+        ProjectFooter(
+          paddingSize: 80,
+          openLink:
+              "https://www.figma.com/file/kFKgPDe30jfdQxAil8YMsT/Senpai-Laptops",
+          textSize: 40,
+        )
       ]).scrollVertical(),
     );
   }
@@ -337,6 +347,9 @@ First, study all available project materials, whether they describe a basic busi
           subTitleSize: 35,
           iconsSize: width < 960 ? 40 : 50,
         ),
+        SizedBox(
+          height: 15,
+        ),
         ProjectPrototype(
           paddingSize: 10,
           title: "Prototype",
@@ -348,6 +361,15 @@ First, study all available project materials, whether they describe a basic busi
               """We continued to use FIgma to create the high-fidelity wireframes and an interactive prototype. I also used Figma’s auto-animate feature to make the app more fun and engaging for the users. We incorporated as many interactions and animations as we could, while making sure that they made sense in the overall flow and were not distracting or disruptive to the experience.""",
           infoSize: 23,
         ),
+        SizedBox(
+          height: 15,
+        ),
+        ProjectFooter(
+          paddingSize: 10,
+          openLink:
+              "https://www.figma.com/file/kFKgPDe30jfdQxAil8YMsT/Senpai-Laptops",
+          textSize: 40,
+        )
       ]).scrollVertical(),
     );
     ;
@@ -501,6 +523,12 @@ class SenpaiMobileProjectScreen extends StatelessWidget {
               """We continued to use FIgma to create the high-fidelity wireframes and an interactive prototype. I also used Figma’s auto-animate feature to make the app more fun and engaging for the users. We incorporated as many interactions and animations as we could, while making sure that they made sense in the overall flow and were not distracting or disruptive to the experience.""",
           infoSize: 17,
         ),
+        ProjectFooter(
+          paddingSize: 16,
+          openLink:
+              "https://www.figma.com/file/kFKgPDe30jfdQxAil8YMsT/Senpai-Laptops",
+          textSize: 30,
+        )
       ]).scrollVertical(),
     );
   }
