@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
         '/projects': (context) => ProjectResponsiveLayout(),
         '/memeshare': (context) => MemeShareResponsiveLayout()
       },
-      title: 'Portfolio',
+      title: 'Yashwant Sahu',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.orange,

@@ -42,7 +42,7 @@ class SenpaiDesktopProjectScreen extends StatelessWidget {
           spaceBetween: 40,
           info:
               """Senpai Laptop is an E-commerce App that allows people to buy Laptops over the internet rather than at a brick-and-mortar location. Through this website, a business can process orders, accept payments, manage shipping and logistics, and provide customer service.\n
-It’s tough to imagine daily life without e-commerce. We order food, clothes, and furniture; we register for classes and other online services; we download books, music, and movies; and so much more. E-commerce has taken root and is here to stay.""",
+It’s tough to imagine daily life without e-commerce. We order food, clothes, and furniture, we register for classes and other online services, we download books, music, and movies, and so much more. E-commerce has taken root and is here to stay.""",
         ),
         SizedBox(
           height: 28,
@@ -56,7 +56,7 @@ It’s tough to imagine daily life without e-commerce. We order food, clothes, a
           spaceBetween: 40,
           infoSize: 28,
           info:
-              """This the personal project which has to be completed within 15 day with 9 unique screen design. I immediately created a considered timeline with goal of completing the design within 10 days, above are the steps that considered while designing this project.""",
+              """This the personal project which has to be completed within 20 day with 9 unique screen design. I immediately created a considered timeline with goal of completing the design within 15 days, above are the steps that considered while designing this project.""",
           designProcess: [
             "IMMERSION",
             "RESEARCH",
@@ -77,10 +77,10 @@ It’s tough to imagine daily life without e-commerce. We order food, clothes, a
           immersionTitleSize: 25,
           immersion: [
             "The mobile app which help people to find their perfect Laptop.",
-            "Any one who looking for the perfect  Computer.",
-            "User can use the app whenevery they feel like buying perfect Computer.",
+            "Any one who looking for the perfect System.",
+            "User can use the app whenevery they feel like buying perfect System.",
             "As the app is eCommerce  shopping app which can used whenever and wherever user like.",
-            "The mobile app perfect solution for buying computer online."
+            "The mobile app perfect solution for buying System online."
           ],
           infoSize: 25,
           spaceBetween: 40,
@@ -97,9 +97,9 @@ It’s tough to imagine daily life without e-commerce. We order food, clothes, a
           infoSize: 28,
           projectImage: "assets/researchimage.png",
           info:
-              """After the immersion stage comes research. UX design begins with a study of the target audience and their needs. You’ll use this information to create products and services that are helpful to the people who belong to your audience and are easy to use. At this stage, the project requirements, analyzes users’ behaviors, and conducts a competitive analysis.
-
-First, study all available project materials, whether they describe a basic business idea or provide a detailed specification that fully describes the desired functionality, mindmaps, and user roles. Once you’ve analyzed all of the information you’ve received from your client, create personas and a user-journey map.""",
+              """After the immersion stage comes research. UX design begins with a study of the target audience and their needs. This information to create products and services that are helpful to the people who belong to your audience and are easy to use. At this stage, the project requirements, analyzes users’ behaviors, and conducts a competitive analysis.
+    
+    First, study all available project materials, whether they describe a basic business idea or provide a detailed specification that fully describes the desired functionality, mindmaps, and user roles. Once you’ve analyzed all of the information you’ve received from your client, create personas and a user-journey map.""",
         ),
         SizedBox(
           height: 28,
@@ -113,7 +113,7 @@ First, study all available project materials, whether they describe a basic busi
           imageToggle: false,
           projectImage: "assets/wireframe.png",
           info:
-              """Wireframes define the underlying structure, as well as the information hierarchy, for this mobile app’s design, I tries to make all the layout simple and minilistic so that the user can easly navigte to tha UI and browse the computer. """,
+              """Wireframes define the underlying structure, as well as the information hierarchy for this mobile app’s design, I tries to make all the layout simple and minilistic so that the user can easly navigte to tha UI and browse. """,
         ),
         SizedBox(
           height: 28,
@@ -137,7 +137,7 @@ First, study all available project materials, whether they describe a basic busi
             spaceBetween: 35,
             imageSpaceing: 150,
             info:
-                """Next,  sketched low-fidelity wireframes with pencil and paper. After that general layouts of our screens, and turned to Figma for our mid-fidelity wireframes. As this was a person project, it takes time. Before wireframing, I decided to apply a 6-column grid with 16 margin on both side  to create an organized and consistent look throughout our screens.""",
+                """Next, sketched low-fidelity wireframes. After that general layouts of our screens, and turned to Figma for our mid-fidelity wireframes. As this was a person project, it takes time. Before wireframing, I decided to apply a 6-column grid with 16 margin on both side  to create an organized and consistent look throughout our screens.""",
             infoSize: 28,
             leftImage: "assets/Explore.png",
             rightImage: "assets/Account.png",
@@ -157,7 +157,7 @@ First, study all available project materials, whether they describe a basic busi
           titleSize: 62,
           spaceBetween: 80,
           info:
-              """After  comparing all the components, colors, icons, and typefaces in the Styles page of the file helped me to  build a style guide to design the page in Minimalastic way""",
+              """After comparing all the components, colors, icons, and typefaces in the Styles page of the file helped me to build a style guide to design the page in Minimalastic way""",
           infoSize: 28,
           circleSize: 90,
           subTitleSize: 35,
@@ -174,7 +174,7 @@ First, study all available project materials, whether they describe a basic busi
           spaceBetween: 80,
           projectImage: "assets/prototype.png",
           info:
-              """We continued to use FIgma to create the high-fidelity wireframes and an interactive prototype. I also used Figma’s auto-animate feature to make the app more fun and engaging for the users. We incorporated as many interactions and animations as we could, while making sure that they made sense in the overall flow and were not distracting or disruptive to the experience.""",
+              """Using Figma to create the high-fidelity wireframes and an interactive prototype. I also used Figma’s auto-animate feature to make the app more fun and engaging for the users. We incorporated as many interactions and animations as we could, while making sure that they made sense in the overall flow and were not distracting or disruptive to the experience.""",
           infoSize: 28,
         ),
         SizedBox(
@@ -222,9 +222,8 @@ class SenpaiTabletProjectScreen extends StatelessWidget {
           infoSize: 28,
           spaceBetween: 35,
           info:
-              """I'm a simple-minded Software Engineeri! who likely loves programming and Gaming, I always try to work in a minimalistic way so things are turn simple and easy to understand.\n
-Application Development, Data Science, Cloud computing, and illustration   my kin interest things w hich I love to learn.
-Currently, I'm working on sharpening my skill in Flutter, ReactJS, UX/UI Design, and DSA.""",
+              """Senpai Laptop is an E-commerce App that allows people to buy Laptops over the internet rather than at a brick-and-mortar location. Through this website, a business can process orders, accept payments, manage shipping and logistics, and provide customer service.\n
+It’s tough to imagine daily life without e-commerce. We order food, clothes, and furniture, we register for classes and other online services, we download books, music, and movies, and so much more. E-commerce has taken root and is here to stay.""",
         ),
         SizedBox(
           height: 15,
@@ -238,9 +237,7 @@ Currently, I'm working on sharpening my skill in Flutter, ReactJS, UX/UI Design,
           spaceBetween: 35,
           infoSize: 28,
           info:
-              """I'm a simple-minded Software Engineeri! who likely loves programming and Gaming, I always try to work in a minimalistic way so things are turn simple and easy to understand.\n
-Application Development, Data Science, Cloud computing, and illustration   my kin interest things w hich I love to learn.
-Currently, I'm working on sharpening my skill in Flutter, ReactJS, UX/UI Design, and DSA.""",
+              """This the personal project which has to be completed within 20 day with 9 unique screen design. I immediately created a considered timeline with goal of completing the design within 15 days, above are the steps that considered while designing this project.""",
           designProcess: [
             "IMMERSION",
             "RESEARCH",
@@ -261,10 +258,10 @@ Currently, I'm working on sharpening my skill in Flutter, ReactJS, UX/UI Design,
           immersionTitleSize: 25,
           immersion: [
             "The mobile app which help people to find their perfect Laptop.",
-            "Any one who looking for the perfect  Computer.",
-            "User can use the app whenevery they feel like buying perfect Computer.",
+            "Any one who looking for the perfect System.",
+            "User can use the app whenevery they feel like buying perfect System.",
             "As the app is eCommerce  shopping app which can used whenever and wherever user like.",
-            "The mobile app perfect solution for buying computer online."
+            "The mobile app perfect solution for buying System online."
           ],
           infoSize: 2,
           spaceBetween: 40,
@@ -281,9 +278,9 @@ Currently, I'm working on sharpening my skill in Flutter, ReactJS, UX/UI Design,
           infoSize: 23,
           projectImage: "assets/researchimage.png",
           info:
-              """After the immersion stage comes research. UX design begins with a study of the target audience and their needs. You’ll use this information to create products and services that are helpful to the people who belong to your audience and are easy to use. At this stage, the project requirements, analyzes users’ behaviors, and conducts a competitive analysis.
-
-First, study all available project materials, whether they describe a basic business idea or provide a detailed specification that fully describes the desired functionality, mindmaps, and user roles. Once you’ve analyzed all of the information you’ve received from your client, create personas and a user-journey map.""",
+              """After the immersion stage comes research. UX design begins with a study of the target audience and their needs. This information to create products and services that are helpful to the people who belong to your audience and are easy to use. At this stage, the project requirements, analyzes users’ behaviors, and conducts a competitive analysis.
+    
+    First, study all available project materials, whether they describe a basic business idea or provide a detailed specification that fully describes the desired functionality, mindmaps, and user roles. Once you’ve analyzed all of the information you’ve received from your client, create personas and a user-journey map.""",
         ),
         SizedBox(
           height: 15,
@@ -297,7 +294,7 @@ First, study all available project materials, whether they describe a basic busi
           infoSize: 23,
           projectImage: "assets/wireframe.png",
           info:
-              """Wireframes define the underlying structure, as well as the information hierarchy, for this mobile app’s design, I tries to make all the layout simple and minilistic so that the user can easly navigte to tha UI and browse the computer. """,
+              """Wireframes define the underlying structure, as well as the information hierarchy for this mobile app’s design, I tries to make all the layout simple and minilistic so that the user can easly navigte to tha UI and browse. """,
         ),
         SizedBox(
           height: 15,
@@ -321,7 +318,7 @@ First, study all available project materials, whether they describe a basic busi
             spaceBetween: 35,
             imageSpaceing: 150,
             info:
-                """Next,  sketched low-fidelity wireframes with pencil and paper. After that general layouts of our screens, and turned to Figma for our mid-fidelity wireframes. As this was a person project, it takes time. Before wireframing, I decided to apply a 6-column grid with 16 margin on both side  to create an organized and consistent look throughout our screens.""",
+                """Next, sketched low-fidelity wireframes. After that general layouts of our screens, and turned to Figma for our mid-fidelity wireframes. As this was a person project, it takes time. Before wireframing, I decided to apply a 6-column grid with 16 margin on both side  to create an organized and consistent look throughout our screens.""",
             infoSize: 23,
             leftImage: "assets/Explore.png",
             rightImage: "assets/Account.png",
@@ -341,7 +338,7 @@ First, study all available project materials, whether they describe a basic busi
           titleSize: 50,
           spaceBetween: 35,
           info:
-              """After  comparing all the components, colors, icons, and typefaces in the Styles page of the file helped me to  build a style guide to design the page in Minimalastic way""",
+              """After comparing all the components, colors, icons, and typefaces in the Styles page of the file helped me to build a style guide to design the page in Minimalastic way""",
           infoSize: 23,
           circleSize: 90,
           subTitleSize: 35,
@@ -358,7 +355,7 @@ First, study all available project materials, whether they describe a basic busi
           spaceBetween: 35,
           projectImage: "assets/prototype.png",
           info:
-              """We continued to use FIgma to create the high-fidelity wireframes and an interactive prototype. I also used Figma’s auto-animate feature to make the app more fun and engaging for the users. We incorporated as many interactions and animations as we could, while making sure that they made sense in the overall flow and were not distracting or disruptive to the experience.""",
+              """Using Figma to create the high-fidelity wireframes and an interactive prototype. I also used Figma’s auto-animate feature to make the app more fun and engaging for the users. We incorporated as many interactions and animations as we could, while making sure that they made sense in the overall flow and were not distracting or disruptive to the experience.""",
           infoSize: 23,
         ),
         SizedBox(
@@ -391,7 +388,7 @@ class SenpaiMobileProjectScreen extends StatelessWidget {
           projectTitle: "Senpai Laptops",
           projectSkill: "Ux Ui Design",
           projectInfo: "Laptop for every ONE",
-          projectImage: "assets/Senpai-Laptop-Pics.png",
+          projectImage: "assets/senpai.png",
           isApp: false,
           openLink:
               "https://www.figma.com/file/kFKgPDe30jfdQxAil8YMsT/Senpai-Laptops?node-id=23%3A40",
@@ -406,9 +403,8 @@ class SenpaiMobileProjectScreen extends StatelessWidget {
           spaceBetween: 20,
           infoSize: 17,
           info:
-              """I'm a simple-minded Software Engineeri! who likely loves programming and Gaming, I always try to work in a minimalistic way so things are turn simple and easy to understand.\n
-    Application Development, Data Science, Cloud computing, and illustration   my kin interest things w hich I love to learn.
-    Currently, I'm working on sharpening my skill in Flutter, ReactJS, UX/UI Design, and DSA.""",
+              """Senpai Laptop is an E-commerce App that allows people to buy Laptops over the internet rather than at a brick-and-mortar location. Through this website, a business can process orders, accept payments, manage shipping and logistics, and provide customer service.\n
+It’s tough to imagine daily life without e-commerce. We order food, clothes, and furniture, we register for classes and other online services, we download books, music, and movies, and so much more. E-commerce has taken root and is here to stay.""",
         ),
         SizedBox(
           height: 10,
@@ -422,9 +418,7 @@ class SenpaiMobileProjectScreen extends StatelessWidget {
           spaceBetween: 24,
           infoSize: 17,
           info:
-              """I'm a simple-minded Software Engineeri! who likely loves programming and Gaming, I always try to work in a minimalistic way so things are turn simple and easy to understand.\n
-    Application Development, Data Science, Cloud computing, and illustration   my kin interest things w hich I love to learn.
-    Currently, I'm working on sharpening my skill in Flutter, ReactJS, UX/UI Design, and DSA.""",
+              """This the personal project which has to be completed within 20 day with 9 unique screen design. I immediately created a considered timeline with goal of completing the design within 15 days, above are the steps that considered while designing this project.""",
           designProcess: [
             "IMMERSION",
             "RESEARCH",
@@ -442,10 +436,10 @@ class SenpaiMobileProjectScreen extends StatelessWidget {
           immersionTitleSize: 25,
           immersion: [
             "The mobile app which help people to find their perfect Laptop.",
-            "Any one who looking for the perfect  Computer.",
-            "User can use the app whenevery they feel like buying perfect Computer.",
+            "Any one who looking for the perfect System.",
+            "User can use the app whenevery they feel like buying perfect System.",
             "As the app is eCommerce  shopping app which can used whenever and wherever user like.",
-            "The mobile app perfect solution for buying computer onlin e."
+            "The mobile app perfect solution for buying System online."
           ],
           infoSize: 17,
           spaceBetween: 40,
@@ -459,7 +453,7 @@ class SenpaiMobileProjectScreen extends StatelessWidget {
           infoSize: 17,
           projectImage: "assets/researchimage.png",
           info:
-              """After the immersion stage comes research. UX design begins with a study of the target audience and their needs. You’ll use this information to create products and services that are helpful to the people who belong to your audience and are easy to use. At this stage, the project requirements, analyzes users’ behaviors, and conducts a competitive analysis.
+              """After the immersion stage comes research. UX design begins with a study of the target audience and their needs. This information to create products and services that are helpful to the people who belong to your audience and are easy to use. At this stage, the project requirements, analyzes users’ behaviors, and conducts a competitive analysis.
     
     First, study all available project materials, whether they describe a basic business idea or provide a detailed specification that fully describes the desired functionality, mindmaps, and user roles. Once you’ve analyzed all of the information you’ve received from your client, create personas and a user-journey map.""",
         ),
@@ -472,7 +466,7 @@ class SenpaiMobileProjectScreen extends StatelessWidget {
           infoSize: 17,
           projectImage: "assets/wireframe.png",
           info:
-              """Wireframes define the underlying structure, as well as the information hierarchy, for this mobile app’s design, I tries to make all the layout simple and minilistic so that the user can easly navigte to tha UI and browse the computer. """,
+              """Wireframes define the underlying structure, as well as the information hierarchy for this mobile app’s design, I tries to make all the layout simple and minilistic so that the user can easly navigte to tha UI and browse. """,
         ),
         ProjectUserFlow(
           paddingSize: 16,
@@ -491,7 +485,7 @@ class SenpaiMobileProjectScreen extends StatelessWidget {
             projectImage: "assets/Account.png",
             imageSpaceing: 150,
             info:
-                """Next,  sketched low-fidelity wireframes with pencil and paper. After that general layouts of our screens, and turned to Figma for our mid-fidelity wireframes. As this was a person project, it takes time. Before wireframing, I decided to apply a 6-column grid with 16 margin on both side  to create an organized and consistent look throughout our screens.""",
+                """Next, sketched low-fidelity wireframes. After that general layouts of our screens, and turned to Figma for our mid-fidelity wireframes. As this was a person project, it takes time. Before wireframing, I decided to apply a 6-column grid with 16 margin on both side  to create an organized and consistent look throughout our screens.""",
             infoSize: 17,
             designInfo: [
               """1440×2204, 834x1570, 
@@ -507,7 +501,7 @@ class SenpaiMobileProjectScreen extends StatelessWidget {
             titleSize: 34,
             spaceBetween: 20,
             info:
-                """After  comparing all the components, colors, icons, and typefaces in the Styles page of the file helped me to  build a style guide to design the page in Minimalastic way""",
+                """After comparing all the components, colors, icons, and typefaces in the Styles page of the file helped me to build a style guide to design the page in Minimalastic way""",
             infoSize: 17,
             circleSize: 90,
             subTitleSize: 25,
@@ -520,7 +514,7 @@ class SenpaiMobileProjectScreen extends StatelessWidget {
           spaceBetween: 20,
           projectImage: "assets/prototype.png",
           info:
-              """We continued to use FIgma to create the high-fidelity wireframes and an interactive prototype. I also used Figma’s auto-animate feature to make the app more fun and engaging for the users. We incorporated as many interactions and animations as we could, while making sure that they made sense in the overall flow and were not distracting or disruptive to the experience.""",
+              """Using Figma to create the high-fidelity wireframes and an interactive prototype. I also used Figma’s auto-animate feature to make the app more fun and engaging for the users. We incorporated as many interactions and animations as we could, while making sure that they made sense in the overall flow and were not distracting or disruptive to the experience.""",
           infoSize: 17,
         ),
         ProjectFooter(

@@ -56,8 +56,8 @@ This Website provides better clarity about the Courses, Colleges, and School So 
           designTitleSize: 34,
           spaceBetween: 40,
           infoSize: 28,
-          info: """
-This Website is first think as a startup by my self so, I decided to design this website as carefully on Figma. It takes about 15 to 20 days to totally finish the Design.""",
+          info:
+              """This Website is first think as a startup by my self so, I decided to design this website as carefully on Figma. It takes about 15 to 20 days to totally finish the Design.""",
           designProcess: [
             "IMMERSION",
             "RESEARCH",
@@ -98,9 +98,9 @@ This Website is first think as a startup by my self so, I decided to design this
           infoSize: 28,
           projectImage: "assets/ratemyhome.png",
           info:
-              """After the immersion stage comes research. UX design begins with a study of the target audience and their needs. You’ll use this information to create products and services that are helpful to the people who belong to your audience and are easy to use. At this stage, project requirements, analyzes users’ behaviors, and conducts a competitive analysis.
-
-First, study all available project materials, whether they describe a basic business idea or provide a detailed specification that fully describes the desired functionality, mindmaps, and user roles. Once you’ve analyzed all of the information you’ve received from your client, create personal and a user-journey map.""",
+              """After the immersion stage comes research. UX design begins with a study of the target audience and their needs. This information to create products and services that are helpful to the people who belong to your audience and are easy to use. At this stage, the project requirements, analyzes users’ behaviors, and conducts a competitive analysis.
+    
+    First, study all available project materials, whether they describe a basic business idea or provide a detailed specification that fully describes the desired functionality, mindmaps, and user roles. Once you’ve analyzed all of the information you’ve received from your client, create personas and a user-journey map.""",
         ),
         SizedBox(
           height: 28,
@@ -138,7 +138,7 @@ First, study all available project materials, whether they describe a basic busi
             spaceBetween: 35,
             imageSpaceing: 150,
             info:
-                """Next,  sketched low-fidelity wireframes with pencil and paper. After that general layouts of our screens, and turned to Figma for our mid-fidelity wireframes. As this was a personal project, it takes time. After wireframing, I decided to applied 80, 16 and 16 Margin for Desktop, Tablet and Mobile to create an organized and consistent look throughout our screens.""",
+                """Next, sketched low-fidelity wireframes with pencil and paper. After that general layouts of our screens, and turned to Figma for our mid-fidelity wireframes. As this was a personal project, it takes time. After wireframing, I decided to applied 80, 16 and 16 Margin for Desktop, Tablet and Mobile to create an organized and consistent look throughout our screens.""",
             infoSize: 28,
             leftImage: "assets/ratemyhome.png",
             rightImage: "assets/RateMyEduReviewPage.png",
@@ -175,7 +175,7 @@ First, study all available project materials, whether they describe a basic busi
           spaceBetween: 80,
           projectImage: "assets/RateMyEduPrototype.png",
           info:
-              """I used Figma to create the high-fidelity wireframes and an interactive prototype. I also used Figma’s auto-animate feature to make the UI more fun and engaging for the users. We incorporated as many interactions and animations as we could, while making sure that they made sense in the overall flow and were not distracting or disruptive to the experience.""",
+              """Using Figma to create the high-fidelity wireframes and an interactive prototype. I also used Figma’s auto-animate feature to make the UI more fun and engaging for the users. We incorporated as many interactions and animations as we could, while making sure that they made sense in the overall flow and were not distracting or disruptive to the experience.""",
           infoSize: 28,
         ),
         SizedBox(
@@ -236,8 +236,8 @@ This Website provides better clarity about the Courses, Colleges, and School So 
           designTitleSize: 27,
           spaceBetween: 35,
           infoSize: 28,
-          info: """
-This Website is first think as a startup by my self so, I decided to design this website as carefully on Figma. It takes about 15 to 20 days to totally finish the Design.""",
+          info:
+              """This Website is first think as a startup by my self so, I decided to design this website as carefully on Figma. It takes about 15 to 20 days to totally finish the Design.""",
           designProcess: [
             "IMMERSION",
             "RESEARCH",
@@ -278,9 +278,9 @@ This Website is first think as a startup by my self so, I decided to design this
           infoSize: 23,
           projectImage: "assets/ratemyhome.png",
           info:
-              """After the immersion stage comes research. UX design begins with a study of the target audience and their needs. You’ll use this information to create products and services that are helpful to the people who belong to your audience and are easy to use. At this stage, project requirements, analyzes users’ behaviors, and conducts a competitive analysis.
-
-First, study all available project materials, whether they describe a basic business idea or provide a detailed specification that fully describes the desired functionality, mindmaps, and user roles. Once you’ve analyzed all of the information you’ve received from your client, create personal and a user-journey map.""",
+              """After the immersion stage comes research. UX design begins with a study of the target audience and their needs. This information to create products and services that are helpful to the people who belong to your audience and are easy to use. At this stage, the project requirements, analyzes users’ behaviors, and conducts a competitive analysis.
+    
+    First, study all available project materials, whether they describe a basic business idea or provide a detailed specification that fully describes the desired functionality, mindmaps, and user roles. Once you’ve analyzed all of the information you’ve received from your client, create personas and a user-journey map.""",
         ),
         SizedBox(
           height: 15,
@@ -318,7 +318,7 @@ First, study all available project materials, whether they describe a basic busi
             spaceBetween: 35,
             imageSpaceing: 150,
             info:
-                """Next,  sketched low-fidelity wireframes with pencil and paper. After that general layouts of our screens, and turned to Figma for our mid-fidelity wireframes. As this was a personal project, it takes time. After wireframing, I decided to applied 80, 16 and 16 Margin for Desktop, Tablet and Mobile to create an organized and consistent look throughout our screens.""",
+                """Next, sketched low-fidelity wireframes with pencil and paper. After that general layouts of our screens, and turned to Figma for our mid-fidelity wireframes. As this was a personal project, it takes time. After wireframing, I decided to applied 80, 16 and 16 Margin for Desktop, Tablet and Mobile to create an organized and consistent look throughout our screens.""",
             infoSize: 23,
             leftImage: "assets/ratemyhome.png",
             rightImage: "assets/RateMyEduReviewPage.png",
@@ -355,7 +355,7 @@ First, study all available project materials, whether they describe a basic busi
           spaceBetween: 35,
           projectImage: "assets/RateMyEduPrototype.png",
           info:
-              """I used Figma to create the high-fidelity wireframes and an interactive prototype. I also used Figma’s auto-animate feature to make the UI more fun and engaging for the users. We incorporated as many interactions and animations as we could, while making sure that they made sense in the overall flow and were not distracting or disruptive to the experience.""",
+              """Using Figma to create the high-fidelity wireframes and an interactive prototype. I also used Figma’s auto-animate feature to make the UI more fun and engaging for the users. We incorporated as many interactions and animations as we could, while making sure that they made sense in the overall flow and were not distracting or disruptive to the experience.""",
           infoSize: 23,
         ),
         SizedBox(
@@ -385,9 +385,9 @@ class RateMyEduMobileProjectScreen extends StatelessWidget {
       body: VStack([
         MobileHeader(),
         SenpaiMobileHeader(
-          projectTitle: "Senpai Laptops",
+          projectTitle: "RateMyEducation",
           projectSkill: "Ux Ui Design",
-          projectInfo: "Laptop for every ONE",
+          projectInfo: "Choose Your Education Carefully",
           projectImage: "assets/ratemyeducationbanner.png",
           isApp: false,
           openLink:
@@ -418,8 +418,8 @@ This Website provides better clarity about the Courses, Colleges, and School So 
           designTitleSize: 12,
           spaceBetween: 24,
           infoSize: 17,
-          info: """
-This Website is first think as a startup by my self so, I decided to design this website as carefully on Figma. It takes about 15 to 20 days to totally finish the Design.""",
+          info:
+              """This Website is first think as a startup by my self so, I decided to design this website as carefully on Figma. It takes about 15 to 20 days to totally finish the Design.""",
           designProcess: [
             "IMMERSION",
             "RESEARCH",
@@ -454,9 +454,9 @@ This Website is first think as a startup by my self so, I decided to design this
           infoSize: 17,
           projectImage: "assets/ratemyeduhome.png",
           info:
-              """After the immersion stage comes research. UX design begins with a study of the target audience and their needs. You’ll use this information to create products and services that are helpful to the people who belong to your audience and are easy to use. At this stage, project requirements, analyzes users’ behaviors, and conducts a competitive analysis.
-
-First, study all available project materials, whether they describe a basic business idea or provide a detailed specification that fully describes the desired functionality, mindmaps, and user roles. Once you’ve analyzed all of the information you’ve received from your client, create personal and a user-journey map.""",
+              """After the immersion stage comes research. UX design begins with a study of the target audience and their needs. This information to create products and services that are helpful to the people who belong to your audience and are easy to use. At this stage, the project requirements, analyzes users’ behaviors, and conducts a competitive analysis.
+    
+    First, study all available project materials, whether they describe a basic business idea or provide a detailed specification that fully describes the desired functionality, mindmaps, and user roles. Once you’ve analyzed all of the information you’ve received from your client, create personas and a user-journey map.""",
         ),
         ProjectWireFrame(
           paddingSize: 16,
@@ -486,7 +486,7 @@ First, study all available project materials, whether they describe a basic busi
             projectImage: "assets/ratemyhome.png",
             imageSpaceing: 150,
             info:
-                """Next,  sketched low-fidelity wireframes with pencil and paper. After that general layouts of our screens, and turned to Figma for our mid-fidelity wireframes. As this was a personal project, it takes time. After wireframing, I decided to applied 80, 16 and 16 Margin for Desktop, Tablet and Mobile to create an organized and consistent look throughout our screens.""",
+                """Next, sketched low-fidelity wireframes with pencil and paper. After that general layouts of our screens, and turned to Figma for our mid-fidelity wireframes. As this was a personal project, it takes time. After wireframing, I decided to applied 80, 16 and 16 Margin for Desktop, Tablet and Mobile to create an organized and consistent look throughout our screens.""",
             infoSize: 17,
             designInfo: [
               """1440×2204, 834x1570, 
@@ -515,7 +515,7 @@ First, study all available project materials, whether they describe a basic busi
           spaceBetween: 20,
           projectImage: "assets/RateMyEduPrototype.png",
           info:
-              """I used Figma to create the high-fidelity wireframes and an interactive prototype. I also used Figma’s auto-animate feature to make the UI more fun and engaging for the users. We incorporated as many interactions and animations as we could, while making sure that they made sense in the overall flow and were not distracting or disruptive to the experience.""",
+              """Using Figma to create the high-fidelity wireframes and an interactive prototype. I also used Figma’s auto-animate feature to make the UI more fun and engaging for the users. We incorporated as many interactions and animations as we could, while making sure that they made sense in the overall flow and were not distracting or disruptive to the experience.""",
           infoSize: 17,
         ),
         ProjectFooter(

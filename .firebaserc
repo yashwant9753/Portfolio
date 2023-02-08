@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "yashwantsahu-portfolio"
-  }
+    "default": "yashwant-sahu",
+    "y": "yashwant-sahu"
+  },
+  "targets": {},
+  "etags": {}
 }

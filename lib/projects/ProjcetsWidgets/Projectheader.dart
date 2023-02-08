@@ -250,7 +250,7 @@ class SenpaiMobileHeader extends StatelessWidget {
       padding: EdgeInsets.only(left: 16, top: 20),
       decoration: BoxDecoration(
           image: DecorationImage(
-              image: AssetImage("assets/senpai.png"), fit: BoxFit.cover)),
+              image: AssetImage(projectImage!), fit: BoxFit.cover)),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [

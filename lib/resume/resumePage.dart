@@ -182,20 +182,6 @@ class ResumePage extends StatelessWidget {
                         fontSize: subHeadingSize!),
                   ),
                   Text(
-                    "• Dart - Beginner",
-                    style: TextStyle(
-                        fontFamily: "CrimsonPro",
-                        color: Colors.white,
-                        fontSize: subHeadingSize!),
-                  ),
-                  Text(
-                    "• .net - Beginner",
-                    style: TextStyle(
-                        fontFamily: "CrimsonPro",
-                        color: Colors.white,
-                        fontSize: subHeadingSize!),
-                  ),
-                  Text(
                     "• MySQL - Intermediate",
                     style: TextStyle(
                         fontFamily: "CrimsonPro",
@@ -210,6 +196,20 @@ class ResumePage extends StatelessWidget {
                         fontSize: subHeadingSize!),
                   ),
                   Text(
+                    "• Dart - Beginner",
+                    style: TextStyle(
+                        fontFamily: "CrimsonPro",
+                        color: Colors.white,
+                        fontSize: subHeadingSize!),
+                  ),
+                  Text(
+                    "• .net - Beginner",
+                    style: TextStyle(
+                        fontFamily: "CrimsonPro",
+                        color: Colors.white,
+                        fontSize: subHeadingSize!),
+                  ),
+                  Text(
                     "• JavaScript - Beginner",
                     style: TextStyle(
                         fontFamily: "CrimsonPro",
@@ -217,21 +217,7 @@ class ResumePage extends StatelessWidget {
                         fontSize: subHeadingSize!),
                   ),
                   Text(
-                    "• jQuery - Beginner",
-                    style: TextStyle(
-                        fontFamily: "CrimsonPro",
-                        color: Colors.white,
-                        fontSize: subHeadingSize!),
-                  ),
-                  Text(
                     "• CSS - Beginner",
-                    style: TextStyle(
-                        fontFamily: "CrimsonPro",
-                        color: Colors.white,
-                        fontSize: subHeadingSize!),
-                  ),
-                  Text(
-                    "• NoSQL - Beginner",
                     style: TextStyle(
                         fontFamily: "CrimsonPro",
                         color: Colors.white,
@@ -264,7 +250,7 @@ class ResumePage extends StatelessWidget {
                     fontFamily: "Bebas-Neue"),
               ),
               Text(
-                "• CSS • PyQT • Django • Bootstrap • Flash • Adobe Illustrator      • SEO • Adobe After Effects • Adobe Premiere Pro • Artificial Intelligence • Firebase",
+                "• CSS • PyQT • Django • Bootstrap • Flash • Adobe Illustrator      • SEO • Adobe After Effects • Adobe Premiere Pro • Artificial Intelligence • Firebase • NoSQL",
                 style: TextStyle(
                     fontFamily: "CrimsonPro",
                     color: Colors.white,
@@ -385,41 +371,7 @@ class ResumePage extends StatelessWidget {
                 ],
               ),
               SizedBox(
-                height: 20,
-              ),
-              Text(
-                "languages",
-                style: TextStyle(
-                    color: PortfolioColor.buttonColor,
-                    fontSize: headingSize!,
-                    fontFamily: "Bebas-Neue"),
-              ),
-              Column(
-                mainAxisAlignment: MainAxisAlignment.start,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    "• English - Intermediate",
-                    style: TextStyle(
-                        fontFamily: "CrimsonPro",
-                        color: Colors.white,
-                        fontSize: subHeadingSize!),
-                  ),
-                  Text(
-                    "• Hindi - Advanced",
-                    style: TextStyle(
-                        fontFamily: "CrimsonPro",
-                        color: Colors.white,
-                        fontSize: subHeadingSize!),
-                  ),
-                  Text(
-                    "• Japanese - Learning",
-                    style: TextStyle(
-                        fontFamily: "CrimsonPro",
-                        color: Colors.white,
-                        fontSize: subHeadingSize!),
-                  ),
-                ],
+                height: 200,
               ),
             ],
           )),
@@ -1111,8 +1063,7 @@ class ResumePage extends StatelessWidget {
                     fontFamily: "Bebas-Neue"),
               ),
               AutoSizeText(
-                """DISCOVER • Basic fundamentals of how to build web sites using HTML CSS, 
-                           Javascript and jQuery""",
+                """DISCOVER • Basic fundamentals of how to build web sites using HTML CSS, Javascript and jQuery""",
                 maxFontSize: subHeadingSize!,
                 style: TextStyle(
                     fontFamily: "CrimsonPro",
@@ -1126,14 +1077,14 @@ class ResumePage extends StatelessWidget {
               Row(
                 children: [
                   Text(
-                    "figma UX UI design Essentials",
+                    "30 Day Google Cloud Program",
                     style: TextStyle(
                         color: PortfolioColor.buttonColor,
                         fontSize: headingSize!,
                         fontFamily: "Bebas-Neue"),
                   ),
                   Text(
-                    " | udemy",
+                    " | Google Cloud Training",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: subHeadingSize!,
@@ -1147,30 +1098,13 @@ class ResumePage extends StatelessWidget {
                   InkWell(
                     onTap: () {
                       html.window.open(
-                          "https://www.figma.com/file/kFKgPDe30jfdQxAil8YMsT/Senpai-Laptops",
+                          "https://www.cloudskillsboost.google/public_profiles/e64c011d-21c1-4bc0-ab29-f492fd2fce43",
                           "_blank");
                     },
                     child: OnHoverButton(builder: ((isHover) {
                       final color = isHover ? Colors.blue : Colors.black;
                       return Text(
-                        "-ecommerce",
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontSize: subHeadingSize!,
-                            fontFamily: "Bebas-Neue"),
-                      );
-                    })),
-                  ),
-                  InkWell(
-                    onTap: () {
-                      html.window.open(
-                          "https://www.figma.com/file/kINA6z7IzeajI65iLYMCNI/RateMyEducation?node-id=0%3A1",
-                          "_blank");
-                    },
-                    child: OnHoverButton(builder: ((isHover) {
-                      final color = isHover ? Colors.blue : Colors.black;
-                      return Text(
-                        "-Google Profile",
+                        "Google Profile",
                         style: TextStyle(
                             color: Colors.white,
                             fontSize: subHeadingSize!,
@@ -1214,6 +1148,9 @@ class ResumePage extends StatelessWidget {
                     color: Colors.white,
                     fontSize: subHeadingSize!),
               ),
+              SizedBox(
+                height: 40,
+              )
             ],
           )),
         ],

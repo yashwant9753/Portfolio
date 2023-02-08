@@ -23,7 +23,10 @@ class ResumeDesktopView extends StatelessWidget {
           paddingSize: width < 1500 ? 150 : 200,
           topPaddingSize: width < 1500 ? 150 : 200,
           layoutswitch: false,
-        )
+        ),
+        SizedBox(
+          height: 20,
+        ),
       ]).scrollVertical(),
     );
   }
@@ -47,7 +50,10 @@ class ResumeTabletView extends StatelessWidget {
             subHeadingSize: width < 1100 ? 15 : 15,
             paddingSize: width < 1100 ? 100 : 150,
             topPaddingSize: width < 1100 ? 100 : 150,
-            layoutswitch: false)
+            layoutswitch: false),
+        SizedBox(
+          height: 20,
+        ),
       ]).scrollVertical(),
     );
   }
@@ -70,7 +76,10 @@ class ResumeMobileView extends StatelessWidget {
             subHeadingSize: 20,
             paddingSize: 16,
             topPaddingSize: 20,
-            layoutswitch: true)
+            layoutswitch: true),
+        SizedBox(
+          height: 20,
+        ),
       ]).scrollVertical(),
     );
   }

@@ -57,9 +57,9 @@ class DesktopHomeScreen extends StatelessWidget {
           projectSkill: "Flutter App",
           projectInfo: "Share the happiness",
           projectImage: "assets/MemeShare.png",
-          openLink: "/memeshare",
+          openLink: "",
           isApp: true,
-          gitHubLink: "https://github.com/yashwant9753/MemeShare",
+          gitHubLink: "https://github.com/yashwant9753",
           videoLink:
               "https://www.youtube.com/watch?v=Z3RTO-juN4I&ab_channel=YashwantSahu",
           appLink:
@@ -125,10 +125,10 @@ class TabletHomeScreen extends StatelessWidget {
           projectTitle: "MemeShare",
           projectSkill: "Flutter App",
           projectInfo: "Share the happiness",
-          projectImage: "assets/MemeShare.png",
-          openLink: "/memeshare",
+          projectImage: "assets.png",
+          openLink: "",
           isApp: true,
-          gitHubLink: "https://github.com/yashwant9753/MemeShare",
+          gitHubLink: "https://github.com/yashwant9753",
           videoLink:
               "https://www.youtube.com/watch?v=Z3RTO-juN4I&ab_channel=YashwantSahu",
           appLink:
@@ -195,7 +195,7 @@ class MobileHomeScreen extends StatelessWidget {
           projectSkill: "Flutter App",
           projectInfo: "Share the happiness",
           projectImage: "assets/memesharebanner.png",
-          openLink: "/memeshare",
+          openLink: "",
           isApp: true,
           gitHubLink: "https://github.com/yashwant9753/MemeShare",
           videoLink:
