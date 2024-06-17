@@ -53,7 +53,7 @@ class _DesktopAboutMeState extends State<DesktopAboutMe> {
                   Container(
                     padding: EdgeInsets.only(left: 10.1, top: 20),
                     child: AutoSizeText(
-                      """I'm a simple-minded Software Engineeri! who likely loves programming and Gaming,\nI always try to work in a minimalistic way so things are turn simple and easy to understand. \nApplication Development, Data Science, Cloud computing, \nand illustration are my kin interest things w hich I love to learn.Currently, \nI'm working on sharpening my skill in Flutter, ReactJS, UX/UI Design, and DSA.""",
+                      """I'm a simple-minded Software Developer! who likely loves programming and Gaming,\nI always try to work in a minimalistic way so things are turn simple and easy to understand. \nApplication Development, Data Science, Cloud computing, \nand illustration are my kin interest things w hich I love to learn.Currently, \nI'm working on sharpening my skill in Flutter, ReactJS, UX/UI Design, and DSA.""",
                       maxFontSize: 28,
                       style: TextStyle(
                           fontSize: 28,
@@ -148,7 +148,7 @@ class _TabletAboutMeState extends State<TabletAboutMe> {
                   Container(
                     padding: EdgeInsets.only(left: 10.1, top: 20),
                     child: AutoSizeText(
-                      """I'm a simple-minded Software Engineeri! who likely loves programming and Gaming,\nI always try to work in a minimalistic way so things are turn simple and easy to understand. \nApplication Development, Data Science, Cloud computing, \nand illustration are my kin interest things w hich I love to learn.Currently, \nI'm working on sharpening my skill in Flutter, ReactJS, UX/UI Design, and DSA.""",
+                      """I'm a simple-minded Software Developer! who likely loves programming and Gaming,\nI always try to work in a minimalistic way so things are turn simple and easy to understand. \nApplication Development, Data Science, Cloud computing, \nand illustration are my kin interest things w hich I love to learn.Currently, \nI'm working on sharpening my skill in Flutter, ReactJS, UX/UI Design, and DSA.""",
                       maxFontSize: 30,
                       minFontSize: 20,
                       style: TextStyle(
@@ -230,7 +230,7 @@ class _MobileAboutMeState extends State<MobileAboutMe> {
             Container(
               padding: EdgeInsets.only(left: 19.1),
               child: AutoSizeText(
-                """I'm a simple-minded Software Engineeri! who likely loves programming and Gaming,\nI always try to work in a minimalistic way so things are turn simple and easy to understand. \nApplication Development, Data Science, Cloud computing, \nand illustration are my kin interest things w hich I love to learn.Currently, \nI'm working on sharpening my skill in Flutter, ReactJS, UX/UI Design, and DSA.""",
+                """I'm a simple-minded Software Developer! who likely loves programming and Gaming,\nI always try to work in a minimalistic way so things are turn simple and easy to understand. \nApplication Development, Data Science, Cloud computing, \nand illustration are my kin interest things w hich I love to learn.Currently, \nI'm working on sharpening my skill in Flutter, ReactJS, UX/UI Design, and DSA.""",
                 maxFontSize: 28,
                 maxLines: 10,
                 style: TextStyle(
